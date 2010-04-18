@@ -2,6 +2,8 @@
 
 = Introducción =
 
+El primer proyecto presentado pretende poner en práctica el uso de interfaces en Java. Para esto se tiene una Caja Fuerte que genera una clave. Cada alumno debe desarrollar su propio Cracker con un algoritmo dedicado a descifrar la clave.
+
 Acá vamos a estar mostrando los resultados de la competencia... Recuerden: los 3 primeros puestos tienen premio!
 
 
