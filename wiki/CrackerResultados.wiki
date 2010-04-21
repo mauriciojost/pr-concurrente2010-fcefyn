@@ -9,4 +9,10 @@ Acá vamos a estar mostrando los resultados de la competencia... Recuerden: los 
 
 = Resultados =
 
-_Miércoles 21_
+Todos los trabajos que hemos recibido han sido muy buenos. Esperamos la práctica los familiarice con Java, así pueden ir puliendo cuestiones relacionadas a la POO.
+
+Como habíamos mencionado, íbamos a tener en consideración a aquellos tres alumnos que entregaran primero:
+
+- Rodrigo Antoñana
+- Javier Ortiz
+- Luis Rodriguez
