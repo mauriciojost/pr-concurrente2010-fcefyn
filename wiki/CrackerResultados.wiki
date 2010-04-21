@@ -1,4 +1,5 @@
 #summary Resultados de la competencia...
+#labels Featured
 
 = Introducción =
 
