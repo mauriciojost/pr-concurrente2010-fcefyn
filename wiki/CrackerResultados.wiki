@@ -7,7 +7,7 @@ El primer proyecto presentado pretende poner en práctica el uso de interfaces e
 Acá vamos a estar mostrando los resultados de la competencia... Recuerden: los 3 primeros puestos tienen premio!
 
 
-= Resultados =
+= Premios por entrega temprana =
 
 Todos los trabajos que hemos recibido han sido muy buenos. Esperamos la práctica los familiarice con Java, así pueden ir puliendo cuestiones relacionadas a la POO.
 
@@ -16,3 +16,18 @@ Como habíamos mencionado, íbamos a tener en consideración a aquellos tres alu
 - Rodrigo Antoñana
 - Javier Ortiz
 - Luis Rodriguez
+
+= Resultados de la competencia =
+
+Valor de prueba: 1487
+
+Primeros lugares (merecedores del super premio...):
+
+
+||Iteraciones || Alumno ||
+||10 || Prados, Santiago ||
+||10 || Arlettaz, Emiliano 33941256 ??||
+||10 || Arlettaz, Emiliano 32578216 ??||
+||10 || RUEDA, René Alejandro ||
+
+Queda pendiente la explicación de Emiliano...
