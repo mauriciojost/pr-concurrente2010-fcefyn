@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		CajaFuerte caja 	= new CajaFuerte(185); 
+		CajaFuerte caja 	= new CajaFuerte(-1); 
 		Cracker cracker_seq = new SequentialCracker();
 		//Cracker miCracker 	= new MiCracker();
 		
