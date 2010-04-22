@@ -1,4 +1,3 @@
-#summary Resultados de la competencia...
 #labels Featured
 
 = Presentación del práctico =
