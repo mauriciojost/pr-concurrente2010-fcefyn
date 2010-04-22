@@ -24,7 +24,7 @@ Primeros lugares (merecedores del super premio...):
 
 ||Iteraciones || Alumno ||
 ||10 || Prados, Santiago ||
-||10 || Furey, Ignacio
+||10 || Furey, Ignacio ||
 ||10 || Reyes, Ivan ||
 ||10 || Soler, Janet ||
 ||10 || Arlettaz, Emiliano ||
