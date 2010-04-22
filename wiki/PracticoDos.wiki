@@ -1,7 +1,7 @@
 #labels Featured
 <wiki:toc max_depth="5" />
 
-= Presentación del Práctico =
+= Presentación del práctico =
 
 Práctico 2
 
