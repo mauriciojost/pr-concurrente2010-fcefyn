@@ -1,4 +1,4 @@
-package paquete;
+1package paquete;
 
 public class Foca extends Animal {
 
