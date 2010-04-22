@@ -3,6 +3,16 @@
 
 = Presentación del práctico =
 
+En este práctico los alumnos pondrán en práctica la ejecución de un hilo. Se enfocarán en la manera de implementar la interfaz Runnable. 
+
+== Explicación == 
+
+Cada alumno deberá entregar su versión del Corredor y actualizar Main para lograr que su corredor compita. Cada corredor debe tener acceso a la pista, y actualizar DE A UNO el valor de su posición. En caso de hacer una actualización errónea, la pista lo penaliza y lo pone en la posición 0. Las posiciones son siempre en formato hexadecimal, para motivar al alumno al uso de código ya existente.
+
+Para gusto del alumno, el corredor podrá ser un Animal, y sobreescribir los métodos propuestos por dicha clase abstracta. 
+
+También se ha incluido la herramienta SVN. Se debe hacer _checkout_ del proyecto, agregar el propio Corredor, actualizar la clase Main, y luego hacer _commit_. 
+
 Práctico 2
 
 *_Plazo: Martes 27, 23:59_*
