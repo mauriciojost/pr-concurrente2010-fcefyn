@@ -22,11 +22,8 @@ Valor de prueba: 1487
 
 Primeros lugares (merecedores del super premio...):
 
-
 ||Iteraciones || Alumno ||
 ||10 || Prados, Santiago ||
-||10 || Arlettaz, Emiliano 33941256 ??||
-||10 || Arlettaz, Emiliano 32578216 ??||
+||10 || Reyes, Ivan ||
+||10 || Arlettaz, Emiliano ||
 ||10 || RUEDA, René Alejandro ||
-
-Queda pendiente la explicación de Emiliano...
