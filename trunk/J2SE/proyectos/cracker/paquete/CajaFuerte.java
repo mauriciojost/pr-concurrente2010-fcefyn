@@ -38,7 +38,6 @@ public class CajaFuerte {
 		String clave_obtenida_str;
 		int clave_obtenida_int, i;
 		boolean ultima_clave_se_excedio;
-		Collections a;
 		
 		ArrayList<Object[]> resultados = new ArrayList<Object[]>();
 		

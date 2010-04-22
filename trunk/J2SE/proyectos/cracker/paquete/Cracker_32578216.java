@@ -27,7 +27,7 @@ public class Cracker_32578216 implements Cracker {
 	}
 	
 	public String getStudentName() {
-		return "Arlettaz, Emiliano";
+		return "Reyes, Ivan";
 	}
 	
 	public int getCurrentKey(){
