@@ -1,9 +1,8 @@
 #labels Featured
-
 = Presentación del práctico =
 
 El primer práctico presentado hace énfasis en el uso de interfaces en Java. Para esto se plantea un proyecto que consta de una Caja Fuerte (clase) que genera una clave "secreta". Cada alumno debe desarrollar una clase que implemente la interfaz Cracker con un algoritmo dedicado a descifrar la clave de dicha Caja Fuerte.
-
+<wiki:toc max_depth="1" />
 
 = Resultados =
 
