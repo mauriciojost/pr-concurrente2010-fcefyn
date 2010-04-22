@@ -11,10 +11,10 @@ Cada alumno deberá entregar su versión del Corredor y actualizar Main para log
 
 Para gusto del alumno, el corredor podrá ser un Animal, y sobreescribir los métodos propuestos por dicha clase abstracta. 
 
-También se ha incluido la herramienta SVN. Se debe hacer _checkout_ del proyecto, agregar el propio Corredor, actualizar la clase Main, y luego hacer _commit_. 
-
-Práctico 2
+También se ha incluido la herramienta SVN. Se debe hacer _checkout_ del proyecto, agregar el propio Corredor, actualizar la clase Main, y luego hacer _commit_. Aquí mismo pueden plantear sus dudas.
 
 *_Plazo: Martes 27, 23:59_*
+
+_<<<ACTUALIZANDO...>>>_
 
 = Resultados =
