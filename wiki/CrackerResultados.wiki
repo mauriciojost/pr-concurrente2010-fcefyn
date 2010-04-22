@@ -18,12 +18,16 @@ Como habíamos mencionado, íbamos a tener en consideración a aquellos tres alu
 
 = Resultados de la competencia =
 
-Valor de prueba: 1487
+_Valor de prueba_: 1487
 
 Primeros lugares (merecedores del super premio...):
 
 ||Iteraciones || Alumno ||
 ||10 || Prados, Santiago ||
+||10 || Furey, Ignacio
 ||10 || Reyes, Ivan ||
+||10 || Soler, Janet ||
 ||10 || Arlettaz, Emiliano ||
 ||10 || RUEDA, René Alejandro ||
+
+*A no deprimirse los demás*, que este ejercicio es en gran medida cuestión de SUERTE. Sepan que basta con cambiar el _valor de prueba_ para que los mejores puestos varíen... Pero así es el juego.
