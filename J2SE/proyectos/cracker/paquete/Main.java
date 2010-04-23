@@ -4,14 +4,8 @@ package paquete;
 public class Main {
 
 	public static void main(String[] args) {
-		
-		CajaFuerte caja 	= new CajaFuerte(1487); 
-		
-		
-		
-		
-		
-		caja.addCracker(new paquete.Cracker32763326());
+		CajaFuerte caja = new CajaFuerte(0); 
+		/*caja.addCracker(new paquete.Cracker32763326());
 		caja.addCracker(new paquete.Cracker_199504074());
 		caja.addCracker(new paquete.Cracker_200204474());
 		caja.addCracker(new paquete.Cracker_200204946());
@@ -41,12 +35,23 @@ public class Main {
 		caja.addCracker(new paquete.Cracker_34318087());
 		caja.addCracker(new paquete.Cracker_34346712());
 		caja.addCracker(new paquete.Cracker_34441188());
-		caja.addCracker(new paquete.Cracker_34446780());
-
-				
-				
+		caja.addCracker(new paquete.Cracker_34446780());*/
+		
+		//caja.testCrackers(10000);
+		
+		caja.fullTestCracker(new paquete.SequentialCracker());
+		caja.fullTestCracker(new paquete.Cracker_33843410());
+		caja.fullTestCracker(new paquete.Cracker_200204474());
+		caja.fullTestCracker(new paquete.Cracker_200204946());
+		caja.fullTestCracker(new paquete.Cracker_200305601()); 
+		caja.fullTestCracker(new paquete.Cracker_200404117());
+		caja.fullTestCracker(new paquete.Cracker_200404576());
+		caja.fullTestCracker(new paquete.Cracker_30353812());
+		caja.fullTestCracker(new paquete.Cracker_30995308());
 		
 		
-		caja.testCrackers(10000);
+		
+		
+		
 	}
 }
