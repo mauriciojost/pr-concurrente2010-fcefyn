@@ -1,7 +1,0 @@
-* [NOVEDADES Novedades]
-
-= Lista de Prácticos =
-
-*[CrackerResultados Practico 1: Cracker]
-
-*[PracticoDos Practico 2: Carrera]
