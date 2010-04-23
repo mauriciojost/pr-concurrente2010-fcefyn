@@ -12,6 +12,8 @@ Está disponible un tutorial de SVN. Bien básico, pero útil para hacer la prim
 
 [http://pr-concurrente2010-fcefyn.googlecode.com/files/SVN%20-%20Parte%201.pdf Tutorial SVN]
 
+[http://tortoisesvn.net/node/138 Significado de los íconos]
+
 = Consulta =
 
 El próximo Lunes 26 a las 15:00 hs, vamos a estar en la facultad. Todos aquellos que estén trabajando en el práctico y tengas dudas acerca de Threads, Herencia o SVN, pueden acercarse. Caso contrario comuníquense vía e-mail.
