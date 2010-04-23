@@ -22,8 +22,12 @@ public class Perro extends Animal implements Corredor{
 	/* Método que será ejecutado desde un hilo independiente al hacer 'hilo.start()'. */
 	@Override
 	public void run() {
-		while(true){
-			position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),16);
+		try{
+			while(true){
+				position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),16);
+			}
+		}catch(NumberFormatException e){
+			System.out.println("Soy " + this.getID() +". He llegado al final! <<<<<<<<<<<<<<<");
 		}
 	}
 
@@ -39,5 +43,4 @@ public class Perro extends Animal implements Corredor{
 	public String getID() {
 		return this.getNombre();
 	}
-
 }

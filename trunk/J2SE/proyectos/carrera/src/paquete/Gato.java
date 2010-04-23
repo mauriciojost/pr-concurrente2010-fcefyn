@@ -27,9 +27,13 @@ public class Gato extends Animal implements Corredor{
 	public void run() {
 		Random rnd = new Random();
 		int step;
-		while(true){
-			step = ((rnd.nextFloat()>0.9)?2:1);
-			position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+step)),16);
+		try{
+			while(true){
+				step = ((rnd.nextFloat()>0.999999)?2:1);
+				position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+step)),16);
+			}
+		}catch(NumberFormatException e){
+			System.out.println("Soy " + this.getID() +". He llegado al final! <<<<<<<<<<<<<<<");
 		}
 	}
 
