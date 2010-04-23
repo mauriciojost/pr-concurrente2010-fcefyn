@@ -13,17 +13,29 @@ public class Pista {
 		corredores = new HashMap<Corredor, Integer>();
 	}
 	
-	/* Cambio de posición de un corredor en particular. */
+	/* Cambio de posición de un corredor en particular. 
+	 * La cadena FINAL indica que se ha llegado a la meta. 
+	 */
 	public String setPosition(Corredor c, String position){
 		
 		//Algoritmo para decidir si es penalizado o avanza.
 		Integer valor = Integer.parseInt(position, 16);
-		if (corredores.get(c)+1 != valor)
+		if (corredores.get(c)+1 != valor){
 			valor = 0;	// Penalizado. Por vivo!
+			System.out.println(c.getID() + " Penalizado!");
+		}
 		
 		corredores.put(c, valor);	// Actualización de la posición
-		System.out.println("Corredor: "+c.getID()+ "Posicion: "+valor);
-		return Integer.toString(valor.intValue(), 16);
+		String nueva_pos = Integer.toString(valor.intValue(), 16);
+		
+		if (valor.intValue()%1000==0){
+			System.out.println(c.getID() + " en posición: " + nueva_pos);
+		}
+		if (valor.intValue()>1000000){
+			return "FINAL"; /* Posición alcanzada! */
+		}
+		
+		return nueva_pos;
 	}
 	
 	/* Agregado de corredores. */
