@@ -13,6 +13,8 @@ Para gusto del alumno, el corredor podrá ser un Animal, y sobreescribir los mé
 
 También se ha incluido la herramienta SVN. Se debe hacer _checkout_ del proyecto, agregar el propio Corredor, actualizar la clase Main, y luego hacer _commit_. Aquí mismo pueden plantear sus dudas.
 
+[Carrera.jpg Diagrama de Clases]
+
 *_Plazo: Martes 27, 23:59_*
 
 [http://pr-concurrente2010-fcefyn.googlecode.com/files/SVN%20-%20Parte%201.pdf Tutorial SVN Tortoise - Parte 1]
