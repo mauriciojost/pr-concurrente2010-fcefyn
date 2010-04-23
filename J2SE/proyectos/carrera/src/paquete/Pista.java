@@ -22,6 +22,7 @@ public class Pista {
 			valor = 0;	// Penalizado. Por vivo!
 		
 		corredores.put(c, valor);	// Actualización de la posición
+		System.out.println("Corredor: "+c.getID()+ "Posicion: "+valor);
 		return Integer.toString(valor.intValue(), 16);
 	}
 	
