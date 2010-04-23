@@ -2,8 +2,8 @@ package paquete;
 
 /* Clase Perro. <Es> Animal y <puede> Correr. */
 public class Perro extends Animal implements Corredor{
-	private Pista pista; /* Como Corredor necesita conocer la Pista para actualizar su posición al correr. */
-	private int position=0; /* Posición actual del Perro. */
+	protected Pista pista; /* Como Corredor necesita conocer la Pista para actualizar su posición al correr. */
+	protected int position=0; /* Posición actual del Perro. */
 	
 	Perro(String nombre) {
 		super(nombre); /* Constructor de la super-clase (Animal). */
@@ -34,7 +34,6 @@ public class Perro extends Animal implements Corredor{
 	/* Establece la pista sobre la cual este corredor realizará actualizaciones al correr. */
 	@Override
 	public void setPista(Pista pista) {
-		// TODO Auto-generated method stub
 		this.pista = pista;
 	}
 
