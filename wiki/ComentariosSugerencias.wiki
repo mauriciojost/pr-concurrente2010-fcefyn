@@ -1,7 +1,6 @@
-#summary Comentarios, sugerencias
+#labels Featured
+<wiki:toc max_depth="5" />
 
-== Introduction ==
+Si les gustaría que la clase cambie en algún sentido o se mantenga en otro, este es el lugar para hacernos conocer su opinión. 
 
-Si tienen alguna inquietud, o les gustaría que la clase cambie en algún sentido, o se mantenga en otro, este es el lugar para decirlo. 
-
-¡Siéntanse libres de comentar que mientras nos ayudan como profesores, se ayudan a sí mismos como alumnos!
+¡Sólo dejen su comentario!
