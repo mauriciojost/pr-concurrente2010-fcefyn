@@ -14,7 +14,7 @@ public class SequentialCracker implements Cracker {
 
 	/* Obtención del nombre del alumno. */
 	public String getStudentName() { 
-		return "APELLIDOS, Nombres";
+		return "Sequential Cracker";
 	}
 	
 	public int getCurrentKey(){
