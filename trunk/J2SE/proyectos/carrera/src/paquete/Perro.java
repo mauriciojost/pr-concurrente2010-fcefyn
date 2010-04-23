@@ -23,7 +23,7 @@ public class Perro extends Animal implements Corredor{
 	@Override
 	public void run() {
 		while(true){
-			position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position)),16);
+			position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),16);
 		}
 	}
 
@@ -34,6 +34,7 @@ public class Perro extends Animal implements Corredor{
 		this.pista = pista;
 	}
 
+	/* Retornar el nombre del Alumno! */
 	@Override
 	public String getID() {
 		return this.getNombre();
