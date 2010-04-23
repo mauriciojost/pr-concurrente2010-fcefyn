@@ -28,9 +28,9 @@ public class Pista {
 		corredores.put(c, valor);	// Actualización de la posición
 		String nueva_pos = Integer.toString(valor.intValue(), 16);
 		
-		if (valor.intValue()%1000==0){
+		//if (valor.intValue()%100==0){
 			System.out.println(c.getID() + " en posición: " + nueva_pos);
-		}
+		//}
 		if (valor.intValue()>1000000){
 			return "FINAL"; /* Posición alcanzada! */
 		}
