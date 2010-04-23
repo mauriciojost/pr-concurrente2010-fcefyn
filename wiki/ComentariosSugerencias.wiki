@@ -1,6 +1,8 @@
 #labels Featured
 <wiki:toc max_depth="5" />
 
+== Comentarios y Sugerencias sobre las clases ==
+
 Si les gustaría que la clase cambie en algún sentido o se mantenga en otro, este es el lugar para hacernos conocer su opinión. 
 
 ¡Sólo dejen su comentario!
