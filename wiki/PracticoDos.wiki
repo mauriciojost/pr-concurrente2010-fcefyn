@@ -15,6 +15,6 @@ También se ha incluido la herramienta SVN. Se debe hacer _checkout_ del proyect
 
 *_Plazo: Martes 27, 23:59_*
 
-_<<<ACTUALIZANDO...>>>_
+[http://pr-concurrente2010-fcefyn.googlecode.com/files/SVN%20-%20Parte%201.pdf Tutorial SVN Tortoise - Parte 1]
 
 = Resultados =
