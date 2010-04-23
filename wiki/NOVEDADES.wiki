@@ -1,6 +1,5 @@
 #labels Featured
 
-
 = Nuevo práctico =
 
 Ya esta disponible el segundo práctico ([http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/PracticoDos Carrera]).
@@ -12,4 +11,4 @@ Estamos armando un tutorial de SVN. Bien básico, pero útil para hacer la prime
 
 = Consulta =
 
-El próximo Lunes 26 a las 15:00 hs, vamos a estar en la facultad. Todos aquellos que estén trabajando en el práctico y tengas dudas acerca de Threads, Herencia, SVN pueden acercarse. Caso contrario comuníquense vía e-mail.
+El próximo Lunes 26 a las 15:00 hs, vamos a estar en la facultad. Todos aquellos que estén trabajando en el práctico y tengas dudas acerca de Threads, Herencia o SVN, pueden acercarse. Caso contrario comuníquense vía e-mail.
