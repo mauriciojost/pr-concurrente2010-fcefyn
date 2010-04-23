@@ -1,4 +1,9 @@
-  * [NOVEDADES ↑ Home]
-  * [PRACTICOS Practicos]
-    * [CrackerResultados Cracker]
-    * [PracticoDos Carrera]
+* [NOVEDADES Novedades]
+
+* [ComentariosSugerencias Comentarios]
+
+= Lista de Prácticos =
+
+*[CrackerResultados Practico 1: Cracker]
+
+*[PracticoDos Practico 2: Carrera]
