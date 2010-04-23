@@ -17,7 +17,7 @@ public class PerroPicaron extends Perro{
 	}
 	
 	/* Método que será ejecutado desde un hilo independiente al hacer 'hilo.start()'. */
-	/* Este perro traicionero quiere avanzar de a 2 algunas veces. */
+	/* Este perro picarón quiere avanzar de a 2, algunas veces. */
 	@Override
 	public void run() {
 		Random rnd = new Random();

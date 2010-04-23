@@ -8,10 +8,12 @@ public class Main {
 		Corredor pichu = new Perro("Pichu");
 		Corredor roque = new Perro("Roque");
 		Corredor picho = new PerroPicaron ("Picho");
+		Corredor lapradon = new Gato("Michi");
 		
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
 		pista.addCorredor(picho);
+		pista.addCorredor(lapradon);
 		
 		pista.iniciarCarrera();
 	}
