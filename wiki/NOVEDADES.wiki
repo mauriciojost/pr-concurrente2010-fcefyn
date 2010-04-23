@@ -10,7 +10,7 @@ Ya esta disponible el segundo práctico ([http://code.google.com/p/pr-concurrent
 
 Está disponible un tutorial de SVN. Bien básico, pero útil para hacer la primera experiencia con el cliente TortoiseSVN.
 
-[http://pr-concurrente2010-fcefyn.googlecode.com/files/SVN%20-%20Parte%201.pdf Tutorial SVN]
+[http://pr-concurrente2010-fcefyn.googlecode.com/files/SVN%20-%20Parte%201.pdf Tutorial SVN - Parte 1]
 
 [http://tortoisesvn.net/node/138 Significado de los íconos]
 
