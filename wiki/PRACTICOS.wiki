@@ -1,5 +1,5 @@
 = Lista de Prácticos =
 
-[http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/CrackerResultados Cracker]
+[http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/CrackerResultados Practico 1: Cracker]
 
-[http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/PracticoDos Carrera]
+[http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/PracticoDos Practico 2: Carrera]
