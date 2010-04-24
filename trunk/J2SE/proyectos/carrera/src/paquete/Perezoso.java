@@ -14,6 +14,7 @@ public class Perezoso extends Animal implements Corredor{
 		Runnable runab = this; 
 		String nombre_hilo = this.getID();
 		Thread nuevo_hilo = (new Thread(runab,nombre_hilo));
+		nuevo_hilo.setPriority(10);//Prioridad maxima al Perezoso
 		nuevo_hilo.start();
 		
 	}
@@ -32,7 +33,14 @@ public class Perezoso extends Animal implements Corredor{
 
 	
 	public void run() {
-		
+		try{
+			while(true){
+				
+				position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),16);
+			}
+		}catch(NumberFormatException e){
+			System.out.println("Soy " + this.getID() +". He llegado al final!...duermo hasta que llegue el resto");
+		}
 		
 	}
 
