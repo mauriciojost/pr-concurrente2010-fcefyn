@@ -15,7 +15,9 @@ public class Main {
 		Corredor chita= new Chita ("Osita");
 
 		Corredor ranita=new Rana("Rene");
-
+		
+		Corredor condorito = new Buitre("Condorito");
+		Corredor kintaafondo = new Gacela("ComoPinia");
 		
 		pista.addCorredor(chita);
 		pista.addCorredor(pichu);
@@ -24,6 +26,8 @@ public class Main {
 		pista.addCorredor(lapradon);
 		pista.addCorredor(dormilon);
 		pista.addCorredor(ranita);
+		pista.addCorredor(condorito);
+		pista.addCorredor(kintaafondo);
 	
 		pista.iniciarCarrera();
 	}
