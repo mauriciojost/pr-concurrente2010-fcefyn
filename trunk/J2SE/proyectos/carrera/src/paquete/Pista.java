@@ -20,6 +20,8 @@ public class Pista {
 		
 		//Algoritmo para decidir si es penalizado o avanza.
 		Integer valor = Integer.parseInt(position, 16);
+		
+		
 		if (corredores.get(c)+1 != valor){
 			valor = 0;	// Penalizado. Por vivo!
 			System.out.println(c.getID() + " Penalizado!");
@@ -29,7 +31,7 @@ public class Pista {
 		String nueva_pos = Integer.toString(valor.intValue(), 16);
 		
 		//if (valor.intValue()%100==0){
-			System.out.println(c.getID() + " en posición: " + nueva_pos);
+			//System.out.println(c.getID() + " en posición: " + nueva_pos);
 		//}
 		if (valor.intValue()>0x1FFFF){
 			return "FINAL"; /* Posición alcanzada! */
