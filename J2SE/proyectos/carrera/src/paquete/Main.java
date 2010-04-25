@@ -12,7 +12,7 @@ public class Main {
 		Corredor dormilon=new Perezoso("Dormilon");
 
 		
-		Corredor chita= new Chita ("Centella");
+		Corredor chita= new Chita ("Osita");
 
 		Corredor ranita=new Rana("Rene");
 
