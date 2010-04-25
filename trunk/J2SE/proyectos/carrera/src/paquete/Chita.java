@@ -4,6 +4,7 @@ public class Chita extends Animal implements Corredor {
 
 	protected Pista pista; 
 	protected int posicion=0;
+	private String nombre="Melisa Torres";
 	
 	Chita(String nombre) {
 		super(nombre);
@@ -39,7 +40,7 @@ public class Chita extends Animal implements Corredor {
 				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),10);
 			}
 		}catch(NumberFormatException e){
-			System.out.println("Soy " + this.getID() +". Llegué!!!!wiiiiii!!!!!!XD <<<<<<<<<<<<<<<");
+			System.out.println("Soy " + this.getID() +". Llegué!!!!wiiiiii!!!!!!XD <<<<<<<<<<<<<<<"+"pertenezco a: "+this.nombre);
 		}
 	}
 		
