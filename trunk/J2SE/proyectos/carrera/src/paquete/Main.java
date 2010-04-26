@@ -15,9 +15,11 @@ public class Main {
 		Corredor kintaafondo = new Gacela("ComoPinia");		
 		Corredor tigre =new Tigre("Tigre de Luis Rodriguez");
 		Corredor cangrejo = new Cangrejo("Bicho de Dario Samban");
+		Corredor saltador = new SaltadorDeFango("SaltadorDeFango");
 		
 		pista.addCorredor(cangrejo);
 		pista.addCorredor(chita);
+		pista.addCorredor(saltador);
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
 
@@ -28,5 +30,7 @@ public class Main {
 		pista.addCorredor(tigre);	
 		pista.iniciarCarrera();
 	}
-
+	
 }
+
+
