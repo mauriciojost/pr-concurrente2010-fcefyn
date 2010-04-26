@@ -9,18 +9,15 @@ public class Main {
 		Corredor roque = new Perro("Roque");
 		Corredor picho = new PerroPicaron ("Picho");
 		Corredor lapradon = new Gato("Michi");
-		Corredor dormilon=new Perezoso("Dormilon");
-
-		
+		Corredor dormilon=new Perezoso("Dormilon");		
 		Corredor chita= new Chita ("Osita");
-
-		Corredor ranita=new Rana("Rene");
-		
+		Corredor ranita=new Rana("Rene");		
 		Corredor condorito = new Buitre("Condorito");
-		Corredor kintaafondo = new Gacela("ComoPinia");
-		
+		Corredor kintaafondo = new Gacela("ComoPinia");		
 		Corredor tigre =new Tigre("Tigre");
+		Corredor cangrejo = new Cangrejo("Bicho");
 		
+		pista.addCorredor(cangrejo);
 		pista.addCorredor(chita);
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
