@@ -43,7 +43,13 @@ public class Rana extends Animal implements Corredor
 		{
 			posicion = posicion +1;
 			estado = pista.setPosition(this, Integer.toHexString(posicion));
-			flag = estado!="FINAL";
+			flag = estado!="FINAL"; 
+			/* Ale, estos objetos nunca van a ser iguales: 
+			 * String a = "pepe"; // Un objeto.
+			 * String b = "pepe"; // Otro objeto completamente diferente.
+			 * a.compareTo(b) da TRUE.
+			 * a==b da FALSE.
+			 * */
 		}	
 		System.out.println("Ya llegué!!");
 
