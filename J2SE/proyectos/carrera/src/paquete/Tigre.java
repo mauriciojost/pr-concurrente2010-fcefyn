@@ -1,32 +1,45 @@
 package paquete;
 
 public class Tigre extends Animal implements Corredor {
+	protected Pista pista;
+	protected int posicion=0;
+
 	
-	public Tigre (String tigre){
+	
+	public Tigre (String tigre){		/*CONSTRUCTOR*/
 		super(tigre);
 	}
 
 	@Override
 	public void correr() {
-		// TODO Auto-generated method stub
-		
+
+		Runnable runab = this; 
+		String nombre_hilo = this.getID();
+		Thread hilo = (new Thread(runab, nombre_hilo));
+		hilo.setPriority(10);
+		hilo.start();
 	}
 
 	@Override
 	public String getID() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.getNombre();
 	}
 
 	@Override
 	public void setPista(Pista pista) {
-		// TODO Auto-generated method stub
+		this.pista = pista;
 		
 	}
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		try{
+			while(true){
+				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),9);
+			}
+		}catch(NumberFormatException e){
+			System.out.println("Soy " + this.getID() +". He llegado al final! <<<<<<<<<<<<<<<");
+		}
 		
 	}
 

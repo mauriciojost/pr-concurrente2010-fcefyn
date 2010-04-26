@@ -19,6 +19,8 @@ public class Main {
 		Corredor condorito = new Buitre("Condorito");
 		Corredor kintaafondo = new Gacela("ComoPinia");
 		
+		Corredor tigre =new Tigre("Tigre");
+		
 		pista.addCorredor(chita);
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
@@ -28,7 +30,7 @@ public class Main {
 		pista.addCorredor(ranita);
 		pista.addCorredor(condorito);
 		pista.addCorredor(kintaafondo);
-	
+		pista.addCorredor(tigre);	
 		pista.iniciarCarrera();
 	}
 
