@@ -9,9 +9,9 @@ public class Main {
 		Corredor pichu 	= 	new Perro("Pichu de Federico Bazán");
 		Corredor roque 	= 	new Perro("Roque de Mauricio Jost");
 
-		Corredor dormilon =	new Perezoso("Dormilon de Renzo Pisseta");		
+		//Corredor dormilon = new Perezoso("Dormilon de Renzo Pisseta");
 		Corredor chita = 	new Chita ("Osita de Melisa Torres");
-		//Corredor ranita =	new Rana("Rene de Alejandro Rueda");		
+		//Corredor ranita = new Rana("Rene de Alejandro Rueda");		
 		Corredor condorito = new Buitre("Condorito");
 		Corredor kintaafondo = new Gacela("ComoPinia");		
 		Corredor tigre =	new Tigre("Tigre de Luis Rodriguez");
@@ -21,6 +21,7 @@ public class Main {
 		Corredor sonic = 	new Puercoespin("Sonic de Nico Morales");
 		Corredor pipo = new Condor("Pipo de Agustin Carrizo");
 		Corredor hp = new Caballo("MT Hourse Power");
+		Corredor fox = new Zorro("Zorro Viejo de José Ribodino");
 		
 		pista.addCorredor(hp);
 		pista.addCorredor(Bernardo);
@@ -36,6 +37,7 @@ public class Main {
 		pista.addCorredor(coyote);
 		pista.addCorredor(sonic);
 		pista.addCorredor(pipo);
+		pista.addCorredor(fox);
 		pista.iniciarCarrera();
 	}
 
