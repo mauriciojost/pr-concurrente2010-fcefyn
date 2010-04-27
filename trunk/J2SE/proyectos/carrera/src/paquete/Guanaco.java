@@ -15,6 +15,7 @@ public class Guanaco extends Animal implements Corredor{
 		Runnable runab = this; 
 		String nombre_hilo = this.getID();
 		Thread nuevo_hilo = (new Thread(runab,nombre_hilo)); /* Creación de un nuevo hilo. */
+		nuevo_hilo.setPriority(10); /*Asigno prioridad max al hilo*/
 		nuevo_hilo.start();
 	}
 	
