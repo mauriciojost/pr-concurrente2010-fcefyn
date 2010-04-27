@@ -6,7 +6,7 @@ public class Tigre extends Animal implements Corredor {
 
 	
 	
-	public Tigre (String tigre){		/*CONSTRUCTOR*/
+	public Tigre (String tigre){		/*CONSTRUCTOR de tigres*/
 		super(tigre);
 	}
 
@@ -21,7 +21,7 @@ public class Tigre extends Animal implements Corredor {
 	}
 
 	@Override
-	public String getID() {
+	public String getID() {	/*mi nombre*/
 		return this.getNombre();
 	}
 
@@ -34,11 +34,11 @@ public class Tigre extends Animal implements Corredor {
 	@Override
 	public void run() {
 		try{
-			while(true){
-				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),9);
+			while(true){	/*actualizo posicion en pista*/
+				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),16);
 			}
 		}catch(NumberFormatException e){
-			System.out.println("Soy " + this.getID() +". He llegado al final! <<<<<<<<<<<<<<<");
+			System.out.println("Soy " + this.getID() +", he llegado a la meta! <<<<<<<<<<<<<<<");
 		}
 		
 	}
