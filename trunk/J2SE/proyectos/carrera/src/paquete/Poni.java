@@ -28,13 +28,12 @@ public class Poni extends Animal implements Corredor {
 	}
 
 	public void run() {
-		final Random rnd = new Random();
-		int step;
+		
 		try {
 			while (true) {
-				step = ((rnd.nextFloat() > 0.999999) ? 2 : 1);
+				
 				position = Integer.parseInt(pista.setPosition(this, Integer
-						.toHexString(position + step)), 16);
+						.toHexString(position + 1)), 16);
 			}
 		} catch (final NumberFormatException e) {
 			System.out.println("Soy " + this.getID()
