@@ -25,7 +25,11 @@ public class Main {
 		Corredor paco = new Guanaco("Paco de José Sureda");
 		Corredor leon = new Leon ("León de Julián Nonino");
 		Corredor pantera = new Pantera ("Pantera de Florencia Caro");
+
+		Corredor Poni= new Poni("ICO de Janet Soler");
+
 		Corredor pollo=new Pollo("Pollo de Ernesto García");
+
 		
 		pista.addCorredor(pollo);
 		pista.addCorredor(hp);
@@ -46,7 +50,9 @@ public class Main {
 		pista.addCorredor(fox);
 		pista.addCorredor(leon);
 		pista.addCorredor(pantera);
+		pista.addCorredor(Poni);
 		pista.iniciarCarrera();
+		
 	}
 
 }
