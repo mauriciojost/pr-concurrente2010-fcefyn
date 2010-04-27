@@ -17,6 +17,7 @@ public class Main {
 		Corredor kintaafondo = new Gacela("ComoPinia");		
 		Corredor tigre =	new Tigre("Tigre de Luis Rodriguez");
 		Corredor cangrejo = new Cangrejo("Bicho de Dario Samban");
+		Corredor pikachu = new Pikachu("Pikachu de Javier Ortiz");
 		Corredor coyote = 	new Coyote("Acme");
 		Corredor Bernardo = new Dinosaurio("El Dinosaurio Bernardo");
 		Corredor sonic = 	new Puercoespin("Sonic de Nico Morales XD");
@@ -38,6 +39,7 @@ public class Main {
 		pista.addCorredor(hp);
 		pista.addCorredor(Bernardo);
 		pista.addCorredor(cangrejo);
+		pista.addCorredor(pikachu);
 		pista.addCorredor(chita);
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
