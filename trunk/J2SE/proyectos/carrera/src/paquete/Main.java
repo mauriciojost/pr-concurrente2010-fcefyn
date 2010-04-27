@@ -23,6 +23,8 @@ public class Main {
 		Corredor hp = new Caballo("MT Hourse Power");
 		Corredor fox = new Zorro("Zorro Viejo de José Ribodino");
 		Corredor paco = new Guanaco("Paco de José Sureda");
+		Corredor leon = new Leon ("León de Julián Nonino");
+		Corredor pantera = new Pantera ("Pantera de Florencia Caro");
 		
 		pista.addCorredor(hp);
 		pista.addCorredor(Bernardo);
@@ -40,6 +42,8 @@ public class Main {
 		pista.addCorredor(sonic);
 		pista.addCorredor(pipo);
 		pista.addCorredor(fox);
+		pista.addCorredor(leon);
+		pista.addCorredor(pantera);
 		pista.iniciarCarrera();
 	}
 
