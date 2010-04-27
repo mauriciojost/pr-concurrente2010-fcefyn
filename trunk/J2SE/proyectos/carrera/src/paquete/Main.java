@@ -29,7 +29,7 @@ public class Main {
 		Corredor Poni= new Poni("ICO de Janet Soler");
 
 		Corredor pollo=new Pollo("Pollo de Ernesto García");
-		Corredor Hipopotamo = new Hipopotamo("Hypo de Aguirre Patricio");
+		Corredor Hipopotamo = new Hipopotamo("Pumper de Aguirre Patricio");
 		
 
 		
