@@ -1,6 +1,6 @@
 package paquete;
 
-import java.util.Random;
+
 
 public class Poni extends Animal implements Corredor {
 	protected Pista pista;
