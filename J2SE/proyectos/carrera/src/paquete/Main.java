@@ -22,6 +22,7 @@ public class Main {
 		Corredor pipo = new Condor("Pipo de Agustin Carrizo");
 		Corredor hp = new Caballo("MT Hourse Power");
 		Corredor fox = new Zorro("Zorro Viejo de José Ribodino");
+		Corredor paco = new Guanaco("Paco de José Sureda");
 		
 		pista.addCorredor(hp);
 		pista.addCorredor(Bernardo);
@@ -32,6 +33,7 @@ public class Main {
 		//pista.addCorredor(dormilon);
 		//pista.addCorredor(ranita);
 		pista.addCorredor(condorito);
+		pista.addCorredor(paco);
 		pista.addCorredor(kintaafondo);
 		pista.addCorredor(tigre);
 		pista.addCorredor(coyote);
