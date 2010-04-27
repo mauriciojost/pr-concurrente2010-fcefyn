@@ -14,7 +14,11 @@ public class Pantera extends Animal implements Corredor
 	
 	public void correr() 
     {
-		//Implementar creacion del hilo para correr
+		Runnable runab = this; 
+		String nombre_hilo = this.getID();
+		Thread hilo_correr = (new Thread(runab,nombre_hilo));
+		hilo_correr.setPriority (10);
+		hilo_correr.start();
 	}
 	
 	public String getID() 
@@ -29,7 +33,17 @@ public class Pantera extends Animal implements Corredor
 	
 	public void run() 
     {
-		//Implementar como corre el animal
+		try
+    	{
+    		while(true)
+    		{
+    			position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),16);
+			}
+		}
+    	catch(NumberFormatException e)
+    	{
+    		System.out.println("Soy " + this.getID() +" ¡¡¡ He llegado a la meta  =) !!! ");
+    	}		
 	}
 	
 }
