@@ -18,7 +18,7 @@ public class Coyote extends Animal implements Corredor{
 	   }
    
    public String getID() {
-		return this.getNombre();
+		return (this.getNombre()+ ", Coyote de Gaby Fochini");
        }
    public void setPista(Pista pista) {
 		this.pista = pista;
@@ -30,7 +30,7 @@ public class Coyote extends Animal implements Corredor{
 				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)));
 			}
 		} catch(NumberFormatException e){
-			System.out.println("Soy " + this.getID() +". el numero uno!!!************************");
+			System.out.println("Soy " + this.getID() +". Llegué!!!************************");
 		}
    }
 }
