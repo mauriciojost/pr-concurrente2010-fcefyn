@@ -15,6 +15,7 @@ public class Main {
 		Corredor kintaafondo = new Gacela("ComoPinia");		
 		Corredor tigre =new Tigre("Tigre de Luis Rodriguez");
 		Corredor cangrejo = new Cangrejo("Bicho de Dario Samban");
+		Corredor coyote = new Coyote("Acme");
 		
 		pista.addCorredor(cangrejo);
 		pista.addCorredor(chita);
@@ -25,7 +26,8 @@ public class Main {
 		//pista.addCorredor(ranita);
 		pista.addCorredor(condorito);
 		pista.addCorredor(kintaafondo);
-		pista.addCorredor(tigre);	
+		pista.addCorredor(tigre);
+		pista.addCorredor(coyote);
 		pista.iniciarCarrera();
 	}
 
