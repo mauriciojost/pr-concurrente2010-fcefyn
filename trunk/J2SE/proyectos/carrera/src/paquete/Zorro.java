@@ -14,7 +14,7 @@ public class Zorro extends Animal implements Corredor{
 		Runnable runab = this; 
 		String zorro = this.getID();
 		Thread hilo_zorro = (new Thread(runab,zorro)); 
-		hilo_zorro.setPriority(10);
+		//hilo_zorro.setPriority(10);
 		hilo_zorro.start();
 	}
 	
@@ -22,7 +22,7 @@ public class Zorro extends Animal implements Corredor{
 	public void run() {
 		try{
 			while(true){
-				position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),10);
+				position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),16);
 				}
 		}catch(NumberFormatException e){
 			System.out.println("Soy " + this.getID() +". Por fin llegue!!!!");
