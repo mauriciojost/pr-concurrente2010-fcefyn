@@ -8,7 +8,7 @@ public class Main {
 		
 		Corredor pichu 	= 	new Perro("Pichu de Federico Bazán");
 		Corredor roque 	= 	new Perro("Roque de Mauricio Jost");
-		
+
 		Corredor dormilon =	new Perezoso("Dormilon de Renzo Pisseta");		
 		Corredor chita = 	new Chita ("Osita de Melisa Torres");
 		//Corredor ranita =	new Rana("Rene de Alejandro Rueda");		
@@ -19,7 +19,7 @@ public class Main {
 		Corredor coyote = 	new Coyote("Acme");
 		Corredor Bernardo = new Dinosaurio("El Dinosaurio Bernardo");
 		Corredor sonic = 	new Puercoespin("Sonic de Nico Morales");
-		
+		Corredor pipo = new Condor("Pipo de Agustin Carrizo");
 		
 		pista.addCorredor(Bernardo);
 		pista.addCorredor(cangrejo);
@@ -33,6 +33,7 @@ public class Main {
 		pista.addCorredor(tigre);
 		pista.addCorredor(coyote);
 		pista.addCorredor(sonic);
+		pista.addCorredor(pipo);
 		pista.iniciarCarrera();
 	}
 
