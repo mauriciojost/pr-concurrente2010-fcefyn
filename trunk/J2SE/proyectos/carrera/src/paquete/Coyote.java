@@ -27,11 +27,12 @@ public class Coyote extends Animal implements Corredor{
    public void run(){
 		try{
 			while(true){
-				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),8);
+				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)));
 			}
 		} catch(NumberFormatException e){
 			System.out.println("Soy " + this.getID() +". el numero uno!!!************************");
 		}
    }
 }
+
 
