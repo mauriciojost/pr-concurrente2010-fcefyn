@@ -16,12 +16,15 @@ public class Main {
 		Corredor tigre =new Tigre("Tigre de Luis Rodriguez");
 		Corredor cangrejo = new Cangrejo("Bicho de Dario Samban");
 		Corredor coyote = new Coyote("Acme");
+		Corredor Bernardo = new Dinosaurio("El Dinosaurio Bernardo");
 		
+		
+		
+		pista.addCorredor(Bernardo);
 		pista.addCorredor(cangrejo);
 		pista.addCorredor(chita);
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
-
 		pista.addCorredor(dormilon);
 		//pista.addCorredor(ranita);
 		pista.addCorredor(condorito);
