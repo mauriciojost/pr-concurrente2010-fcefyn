@@ -7,6 +7,7 @@ import java.util.Iterator;
 public class Pista {
 	
 	private HashMap<Corredor, Integer> corredores; /* Colección de corredores agregados a la pista. */
+	private int puesto=1;
 	
 	/* Nueva pista. */
 	public Pista(){
@@ -17,27 +18,35 @@ public class Pista {
 	 * La cadena FINAL indica que se ha llegado a la meta. 
 	 */
 	public String setPosition(Corredor c, String position){
+		Integer valor = new Integer(0); 
 		
-		//Algoritmo para decidir si es penalizado o avanza.
-		Integer valor = Integer.parseInt(position, 16);
-		
-		
-		if (corredores.get(c)+1 != valor){
+		try{
+			//Algoritmo para decidir si es penalizado o avanza.
+			valor = Integer.parseInt(position, 16);
+		}catch(Exception e){
+			e.printStackTrace();
+			return "0"; /* Posición alcanzada! */
+		}	
+			
+		if (corredores.get(c).intValue()+1 != valor.intValue()){
 			valor = 0;	// Penalizado. Por vivo!
 			System.out.println(c.getID() + " Penalizado!");
 		}
-		
+			
 		corredores.put(c, valor);	// Actualización de la posición
-		String nueva_pos = Integer.toString(valor.intValue(), 16);
+			String nueva_pos = Integer.toString(valor.intValue(), 16);
+			
+			if (valor.intValue()%100==0){
+				System.out.println(c.getID() + " en posición: " + nueva_pos);
+			}
+			if (valor.intValue()>(0x200000)){
+			//if (valor.intValue()>100000){
+				System.out.println(">>>>>>>>>>>>La pista felicita a " + c.getID() + " por llegar a la meta! Puesto: " + puesto++);
+				return "FINAL"; /* Posición alcanzada! */
+			}
+			
+			return nueva_pos;
 		
-		//if (valor.intValue()%100==0){
-			System.out.println(c.getID() + " en posición: " + nueva_pos);
-		//}
-		if (valor.intValue()>Integer.MAX_VALUE-1){
-			return "FINAL"; /* Posición alcanzada! */
-		}
-		
-		return nueva_pos;
 	}
 	
 	/* Agregado de corredores. */
