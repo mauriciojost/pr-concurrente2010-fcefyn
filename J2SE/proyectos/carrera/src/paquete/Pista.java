@@ -37,7 +37,7 @@ public class Pista {
 			String nueva_pos = Integer.toString(valor.intValue(), 16);
 			
 			if (valor.intValue()%100==0){
-				System.out.println(c.getID() + " en posición: " + nueva_pos);
+				//System.out.println(c.getID() + " en posición: " + nueva_pos);
 			}
 			if (valor.intValue()>(0x200000)){
 			//if (valor.intValue()>100000){
