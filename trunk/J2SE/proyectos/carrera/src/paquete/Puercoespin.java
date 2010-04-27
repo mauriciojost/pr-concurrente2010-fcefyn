@@ -31,7 +31,7 @@ public class Puercoespin extends Animal implements Corredor{
 	public void run() {					//Acciones cuando corro..				
 		try{
 			while(true){
-						posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),10);
+						posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),16);
 			}
 		
 		}catch(NumberFormatException e){
