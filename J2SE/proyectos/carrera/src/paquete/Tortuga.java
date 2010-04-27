@@ -18,7 +18,7 @@ public class Tortuga extends Animal implements Corredor{
 	public void run() {
 		try{
 			while(true){
-				position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),9);
+				position = Integer.parseInt(pista.setPosition(this, Integer.toHexString(position+1)),10);
 			}
 		}catch(NumberFormatException e){
 			System.out.println("Soy " + this.getID() +". He llegado al final!");
