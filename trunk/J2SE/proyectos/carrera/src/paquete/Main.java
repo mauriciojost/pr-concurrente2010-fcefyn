@@ -20,13 +20,15 @@ public class Main {
 		Corredor Bernardo = new Dinosaurio("El Dinosaurio Bernardo");
 		Corredor sonic = 	new Puercoespin("Sonic de Nico Morales");
 		Corredor pipo = new Condor("Pipo de Agustin Carrizo");
+		Corredor hp = new Caballo("MT Hourse Power");
 		
+		pista.addCorredor(hp);
 		pista.addCorredor(Bernardo);
 		pista.addCorredor(cangrejo);
 		pista.addCorredor(chita);
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
-		pista.addCorredor(dormilon);
+		//pista.addCorredor(dormilon);
 		//pista.addCorredor(ranita);
 		pista.addCorredor(condorito);
 		pista.addCorredor(kintaafondo);
