@@ -29,7 +29,7 @@ public class Main {
 		Corredor pantera = new Pantera ("Pantera de Florencia Caro");
 		Corredor camello = new Pantera ("camel de Cesar Gallo");
 		Corredor Poni= new Poni("ICO de Janet Soler");
-
+        Corredor hiena= new Hiena("Hiena de Emiliano Montiel");
 		Corredor pollo=new Pollo("Pollo de Ernesto García");
 		//Corredor Hipopotamo = new Hipopotamo("Pumper de Aguirre Patricio");
 		
@@ -57,6 +57,7 @@ public class Main {
 		pista.addCorredor(pantera);
 		pista.addCorredor(camello);
 		pista.addCorredor(Poni);
+		pista.addCorredor(hiena);
 		//pista.addCorredor(Hipopotamo);
 		pista.iniciarCarrera();
 		
