@@ -1,0 +1,12 @@
+<wiki:toc max_depth="5" />
+
+= Presentación del práctico =
+
+En este práctico los alumnos pondrán en práctica la ejecución de múltiples hilos y su sincronización.
+
+== Explicación == 
+
+
+*_Plazo: Martes 4, 23:59_*
+
+= Resultados =
