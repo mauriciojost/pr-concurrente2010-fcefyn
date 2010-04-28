@@ -8,6 +8,28 @@ http://pr-concurrente2010-fcefyn.googlecode.com/files/vehiculo_logo_resized.jpg
 
 == Explicación == 
 
+Se tiene un vehículo con 2 puertas, llamadas A y B. De acuerdo a la implementación del vehículo, pueden ingresar por cada puerta de a un pasajero, o de a muchos. 
+Existe/n un/dos inspector/es (o no) dentro del vehículo que verifica/n que se cumpla con la política de ingreso establecida.
+
+Consignas: 
+
+  # Crear una clase que implemente Pasajero. El Pasajero intenta entrar al Vehículo por alguna de las dos puertas. La decisión es tomada aleatoriamente al momento del ingreso por el individuo.
+
+
+  # Crear 3 clases que extiendan de Vehiculo (ejemplo: ColectivoSinControl_nromatricula).
+  ## f
+  ## g
+
+Verificar que entran usuarios superando la capacidad. 
+Qué sucede con la ocupación? Siempre se respeta la capacidad?
+
+  # Restringir el acceso al vehículo de a 1 por vez (o por puera a, o por puerta b, no ambas a la vez).
+
+  # Restringir el acceso de a 2 por vez (1 por puerta a, y 1 por puerta b).
+
+
+
+
 http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo2.jpg
 
 *_Plazo: Martes 4, 23:59_*
