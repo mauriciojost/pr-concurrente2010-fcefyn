@@ -37,7 +37,7 @@ public class Cangrejo extends Animal implements Corredor{
 		try{
 			while(true){
 				
-				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),10);
+				posicion = Integer.parseInt(pista.setPosition(this, Integer.toHexString(posicion+1)),16);
 			}
 		}catch(NumberFormatException e){
 			System.out.println("Soy " + this.getID() +". Llego el Bicho!");
