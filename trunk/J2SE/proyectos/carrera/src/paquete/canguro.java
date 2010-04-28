@@ -1,6 +1,6 @@
 package paquete;
 
-public class canguro extends Animal implements Corredor {
+public class Canguro extends Animal implements Corredor {
 	protected Pista pista; 
 	protected int p=0; 
 	
