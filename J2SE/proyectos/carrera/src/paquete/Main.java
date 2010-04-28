@@ -35,13 +35,13 @@ public class Main {
 		//Corredor leopardo = new Leopardo("Leopardo de");
 		//Corredor nutria = new Nutria("Nutria de");
 		Corredor puma = new Puma("Puma de");
-		//Corredor tortuga = new Tortuga("Tortuga de");
+		Corredor tortuga = new Tortuga("Tortuga de Maxi Bustos");
 		
 		
 		//pista.addCorredor(leopardo);
 		//pista.addCorredor(nutria);
 		pista.addCorredor(puma);
-		//pista.addCorredor(tortuga);
+		pista.addCorredor(tortuga);
 		//pista.addCorredor(saltador);
 		pista.addCorredor(pollo);
 		//pista.addCorredor(hp);
