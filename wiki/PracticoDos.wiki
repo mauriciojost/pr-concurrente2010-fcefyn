@@ -25,7 +25,8 @@ Ha sido actualizada la lista con los alumnos que entregaron el práctico.
 Aquí la salida de una de las tiradas:
 
 
-{{{ >>>>>>>>>>>>La pista felicita a Osita de Melisa Torres por llegar a la meta! Puesto: 1
+{{{
+>>>>>>>>>>>>La pista felicita a Osita de Melisa Torres por llegar a la meta! Puesto: 1
 Soy Osita de Melisa Torres. Llegué!!!!wiiiiii!!!!!!XD <<<<<<<<<<<<<<<
 >>>>>>>>>>>>La pista felicita a Hiena de Emiliano Montiel, Hiena  por llegar a la meta! Puesto: 2
 Soy Hiena de Emiliano Montiel, Hiena . *Hiena wins flowers victory*
@@ -54,4 +55,5 @@ Soy Dormilon de Renzo Pisseta. He llegado al final!...duermo hasta que llegue el
 >>>>>>>>>>>>La pista felicita a Puma de por llegar a la meta! Puesto: 14
 Soy Puma de. He llegado al final! 
 >>>>>>>>>>>>La pista felicita a Zorro Viejo de José Ribodino por llegar a la meta! Puesto: 15
-Soy Zorro Viejo de José Ribodino. Por fin llegue!!!! }}}
+Soy Zorro Viejo de José Ribodino. Por fin llegue!!!! 
+}}}
