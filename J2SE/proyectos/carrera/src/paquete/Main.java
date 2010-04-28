@@ -8,7 +8,7 @@ public class Main {
 		
 		Corredor pichu 	= 	new Perro("Pichu de Federico Bazán");
 		Corredor roque 	= 	new Perro("Roque de Mauricio Jost");
-		Corredor canguro = new Canguro ("leotula");
+		//Corredor canguro = new Canguro ("leotula");
 		Corredor saltador = new SaltadorDeFango("Saltador de Fango");
 		//Corredor dormilon = new Perezoso("Dormilon de Renzo Pisseta");
 		Corredor chita = 	new Chita ("Osita de Melisa Torres");
@@ -27,7 +27,7 @@ public class Main {
 		Corredor paco = new Guanaco("Paco de José Sureda");
 		Corredor leon = new Leon ("León de Julián Nonino");
 		Corredor pantera = new Pantera ("Pantera de Florencia Caro");
-		Corredor camello = new Pantera ("camel de Cesar Gallo");
+		Corredor camello = new Camello ("camel de Cesar Gallo");
 		Corredor Poni= new Poni("ICO de Janet Soler");
         Corredor hiena= new Hiena("Hiena de Emiliano Montiel");
 		Corredor pollo=new Pollo("Pollo de Ernesto García");
@@ -59,7 +59,7 @@ public class Main {
 		pista.addCorredor(camello);
 		pista.addCorredor(Poni);
 		pista.addCorredor(hiena);
-		//pista.addCorredor(Hipopotamo);
+		//pista.addCorredor(canguro);
 		pista.iniciarCarrera();
 		
 	}
