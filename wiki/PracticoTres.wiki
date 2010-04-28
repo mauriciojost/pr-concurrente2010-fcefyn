@@ -6,6 +6,7 @@ En este práctico los alumnos pondrán en práctica la ejecución de múltiples 
 
 == Explicación == 
 
+http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo1.jpg
 
 *_Plazo: Martes 4, 23:59_*
 
