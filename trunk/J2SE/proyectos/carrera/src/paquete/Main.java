@@ -8,7 +8,7 @@ public class Main {
 		
 		Corredor pichu 	= 	new Perro("Pichu de Federico Bazán");
 		Corredor roque 	= 	new Perro("Roque de Mauricio Jost");
-
+		Corredor canguro = new Canguro ("leotula");
 		Corredor saltador = new SaltadorDeFango("Saltador de Fango");
 		//Corredor dormilon = new Perezoso("Dormilon de Renzo Pisseta");
 		Corredor chita = 	new Chita ("Osita de Melisa Torres");
@@ -40,6 +40,7 @@ public class Main {
 		pista.addCorredor(Bernardo);
 		pista.addCorredor(cangrejo);
 		pista.addCorredor(pikachu);
+		pista.addCorredor(canguro);
 		pista.addCorredor(chita);
 		pista.addCorredor(pichu);
 		pista.addCorredor(roque);
