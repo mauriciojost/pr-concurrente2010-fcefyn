@@ -31,7 +31,7 @@ public class Main {
 		Corredor Poni= new Poni("ICO de Janet Soler");
         Corredor hiena= new Hiena("Hiena de Emiliano Montiel");
 		Corredor pollo=new Pollo("Pollo de Ernesto García");
-		Corredor Elefante = new Elefante("trompita");
+		Corredor Elefante = new Elefante("trompita Pablo Martinet");
 		//Corredor Hipopotamo = new Hipopotamo("Pumper de Aguirre Patricio");
 		//Corredor leopardo = new Leopardo("Leopardo de");
 		//Corredor nutria = new Nutria("Nutria de");
