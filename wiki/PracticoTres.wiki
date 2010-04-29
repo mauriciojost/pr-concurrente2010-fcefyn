@@ -8,7 +8,7 @@ http://pr-concurrente2010-fcefyn.googlecode.com/files/vehiculo_logo_resized.jpg
 
 == Explicación == 
 
-Se tiene un vehículo con 2 puertas, llamadas A y B, una capacidad máxima de ingresos por cada puerta y dos números que representan la cantidad de ingresos ya ocurridos en cada puerta. De acuerdo a la implementación del vehículo, pueden ingresar por cada puerta de a un pasajero, o en cantidad. 
+Se tiene un vehículo con 2 puertas, llamadas A y B, una cantidad máxima de ingresos por cada puerta y dos números que representan la cantidad de ingresos ya ocurridos en cada puerta. De acuerdo a la implementación del vehículo, pueden ingresar por cada puerta de a un pasajero, o en cantidad. 
 Existe/n un/dos inspector/es (o no) dentro del vehículo que verifica/n que se cumpla con la política de ingreso establecida.
 
 === Consigna === 
@@ -28,6 +28,7 @@ Responder las siguientes preguntas:
     ## ¿Entran más usuarios de los permitidos en algún caso? ¿Por qué?
     ## ¿Cuál es la ventaja de la implementación del Vehículo con 2 inspectores respecto del que tiene 1 sólo?
 
+== Diagrama de Clases ==
 
 http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo3.jpg
 
