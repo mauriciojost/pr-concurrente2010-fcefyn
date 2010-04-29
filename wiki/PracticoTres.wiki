@@ -28,9 +28,9 @@ Responder las siguientes preguntas:
     ## ¿Entran más usuarios de los permitidos en algún caso? ¿Por qué?
     ## ¿Cuál es la ventaja de la implementación del Vehículo con 2 inspectores respecto del que tiene 1 sólo?
 
-<wiki:comment>
-http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo2.jpg
-</wiki:comment>
+
+http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo3.jpg
+
 
 *_Plazo: Martes 4, 23:59_*
 
