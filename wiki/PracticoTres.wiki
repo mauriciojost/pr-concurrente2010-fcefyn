@@ -1,3 +1,4 @@
+#labels Featured
 <wiki:toc max_depth="5" />
 
 = Presentación del práctico =
@@ -33,6 +34,6 @@ Responder las siguientes preguntas:
 http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo3.jpg
 
 
-*_Plazo: Martes 4, 23:59_*
+*_Plazo: Martes 4, 23:59. EXTENDIDO UNA SEMANA MÁS!!!_*
 
 = Resultados =
