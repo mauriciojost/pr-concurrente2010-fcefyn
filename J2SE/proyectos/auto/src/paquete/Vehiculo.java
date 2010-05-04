@@ -69,12 +69,14 @@ public abstract class Vehiculo{
 	
 	public void incrementarIngresosPorPuertaA(){
 		this.ingresosPorA++;
+		System.out.println("Ingreso por A - "+this.ingresosPorA);
 	}
 	
 	public void incrementarIngresosPorPuertaB(){
 		this.ingresosPorB++;
+		System.out.println("Ingreso por B - "+this.ingresosPorB);
 	}
-	
+
 	public abstract void dejarEntrarAPasajeroPorPuertaA(Pasajero p);
 	public abstract void dejarEntrarAPasajeroPorPuertaB(Pasajero p);
 	public abstract String getAPELLIDONombreDelAlumno();
