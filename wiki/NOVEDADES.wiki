@@ -1,9 +1,11 @@
 #labels Featured
 <wiki:toc max_depth="5" />
 
-= Nuevo práctico =
+= Tercer Práctico =
 
-Ya esta disponible el segundo práctico ([http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/PracticoDos Carrera]).
+([http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/PracticoTres Vehiculo]).
+
+Debido a que muchos alumnos se encuentran con exámenes parciales, se ha extendido el plazo de entrega una semana más. Nueva fecha: *_ Martes 11, 23:59_*
 
 
 = Tutorial de SVN =
@@ -14,6 +16,7 @@ Está disponible un tutorial de SVN. Bien básico, pero útil para hacer la prim
 
 [http://tortoisesvn.net/node/138 Significado de los íconos]
 
-= Consulta =
 
-El próximo Lunes 26 a las 15:00 hs, vamos a estar en la facultad (pañol o LAC). Todos aquellos que estén trabajando en el práctico y tengas dudas acerca de Threads, Herencia o SVN, pueden acercarse. Caso contrario comuníquense vía e-mail o mediante  [http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/ComentariosSugerencias Comentarios y sugerencias sobre la clase].
+= Comentarios y Sugerencias =
+
+Pueden dejar cualquier opinión que sirva para mejorar las clases: [http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/ComentariosSugerencias Comentarios y sugerencias sobre la clase].
