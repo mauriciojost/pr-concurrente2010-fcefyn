@@ -4,11 +4,11 @@
 
 En este práctico los alumnos pondrán en práctica la ejecución de múltiples hilos y su sincronización.
 
-*ttp://pr-concurrente2010-fcefyn.googlecode.com/files/vehiculo_logo_resized.jpg*
-
 == Explicación == 
 
-El modelo del productor consumidor consiste en un hilo Writer que almacena datos en un buffer de capacidad finita. Cuando esa capacidad es rebasada, el Writer debe esperar. Por otro lado, existe un hilo Reader que extrae datos del buffer, y cuando el buffer no posee datos, espera.
+http://upload.wikimedia.org/wikipedia/it/thumb/b/b5/FIFO-LIFO.svg/470px-FIFO-LIFO.svg.png
+
+El modelo del productor consumidor consiste en un hilo Writer que almacena datos en un buffer de capacidad finita. Cuando esa capacidad es rebasada, el Writer debe esperar. Por otro lado, existe un hilo Reader que extrae datos del buffer, y cuando el buffer no posee datos, espera. El buffer es accedido según la política LIFO.
 
 === Consigna === 
 
