@@ -1,0 +1,25 @@
+<wiki:toc max_depth="5" />
+
+= Presentación del práctico =
+
+En este práctico los alumnos pondrán en práctica la ejecución de múltiples hilos y su sincronización.
+
+*ttp://pr-concurrente2010-fcefyn.googlecode.com/files/vehiculo_logo_resized.jpg*
+
+== Explicación == 
+
+El modelo del productor consumidor consiste en un hilo Writer que almacena datos en un buffer de capacidad finita. Cuando esa capacidad es rebasada, el Writer debe esperar. Por otro lado, existe un hilo Reader que extrae datos del buffer, y cuando el buffer no posee datos, espera.
+
+=== Consigna === 
+
+  # Realizar el Diagrama de Clases.
+  # Haciendo uso de las herramientas que provee Java (synchronized, semáforos), solucionar el problema de concurrencia en la lectura y la escritura sobre el buffer.
+
+* NOTA: Modificar el nombre de la clase Buffer por Buffer_nroMatricula.*
+
+=== Preguntas ===
+
+¿Que sentido tienen las interfaces Readable y Writable?
+<wiki:comment>¿Si los datos no fueran consumibles (es decir, no son extraídos, solo reemplazados) alguna operación se podría llevar a cabo en simultáneo por varios hilos? ¿Cual y bajo que condiciones?</wiki:comment>
+
+= Resultados =
