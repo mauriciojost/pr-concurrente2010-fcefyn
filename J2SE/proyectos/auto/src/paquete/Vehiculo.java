@@ -67,12 +67,12 @@ public abstract class Vehiculo{
 		return oc;
 	}
 	
-	public void incrementarIngresosPorPuertaA(){
+	public synchronized void incrementarIngresosPorPuertaA(){
 		this.ingresosPorA++;
 		System.out.println("Ingreso por A - "+this.ingresosPorA);
 	}
 	
-	public void incrementarIngresosPorPuertaB(){
+	public synchronized void incrementarIngresosPorPuertaB(){
 		this.ingresosPorB++;
 		System.out.println("Ingreso por B - "+this.ingresosPorB);
 	}
