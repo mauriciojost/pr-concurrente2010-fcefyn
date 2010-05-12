@@ -1,9 +1,11 @@
 #labels Featured
 <wiki:toc max_depth="5" />
 
-= Tercer Práctico =
+= Cuarto Práctico =
 
-([http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/PracticoTres Vehiculo]).
+Ya está disponible el cuarto práctico. El mismo tiene por objetivo que resuelvan el problema de concurrencia en el Productor/Consumidor (también conocido como Lector/Escritor).
+
+= Tercer Práctico =
 
 Debido a que muchos alumnos se encuentran con exámenes parciales, se ha extendido el plazo de entrega una semana más. Nueva fecha: *_ Martes 11, 23:59_*
 
