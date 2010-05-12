@@ -5,11 +5,6 @@
 
 Ya está disponible el cuarto práctico. El mismo tiene por objetivo que resuelvan el problema de concurrencia en el Productor/Consumidor (también conocido como Lector/Escritor).
 
-= Tercer Práctico =
-
-Debido a que muchos alumnos se encuentran con exámenes parciales, se ha extendido el plazo de entrega una semana más. Nueva fecha: *_ Martes 11, 23:59_*
-
-
 = Tutorial de SVN =
 
 Está disponible un tutorial de SVN. Bien básico, pero útil para hacer la primera experiencia con el cliente TortoiseSVN.
