@@ -1,6 +1,10 @@
 #labels Featured
 <wiki:toc max_depth="5" />
 
+= Aclaración =
+
+Por favor respeten el formato para presentar los trabajos. Está claramente especificado que nombre deben tener las clases a presentar y donde responder preguntas!
+
 = Cuarto Práctico =
 
 Ya está disponible el cuarto práctico. El mismo tiene por objetivo que resuelvan el problema de concurrencia en el Productor/Consumidor (también conocido como Lector/Escritor).
