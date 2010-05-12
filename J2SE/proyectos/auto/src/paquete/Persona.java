@@ -1,26 +1,26 @@
 package paquete;
 
 import java.util.Random;
+import java.lang.Thread;
 
 public class Persona implements Pasajero {
-	Vehiculo aux;
-	Random Rdm = new Random();
-	String nombre;
-	public Persona(String nom) {
-		nombre=nom;
+	Vehiculo vehiculo;
+	Random eleccion;
+
+	public Persona() {
+		eleccion = new Random();
 	}
 	public void entrarAlVehiculo(Vehiculo v) {
-
-		this.aux=v;
-		Thread nombre = new Thread(this);
-		nombre.start();
+		this.vehiculo = v;
+		Thread t = new Thread(this);
+		t.start();
 		
 	}
 	public void run() {
-		if(Rdm.nextBoolean())
-		this.aux.dejarEntrarAPasajeroPorPuertaA(this);
+		if(eleccion.nextBoolean())
+			vehiculo.dejarEntrarAPasajeroPorPuertaA(this);
 		else
-		this.aux.dejarEntrarAPasajeroPorPuertaB(this);
+			vehiculo.dejarEntrarAPasajeroPorPuertaB(this);
 			
 		
 	}
