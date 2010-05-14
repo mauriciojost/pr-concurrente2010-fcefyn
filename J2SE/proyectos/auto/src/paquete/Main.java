@@ -11,10 +11,11 @@ public class Main {
 		Vehiculo cole = new ColectivoConDosInspectores_33941256(capacidad/2,capacidad/2);
 		//Vehiculo cole = new ColectivoConUnInspector_33941256(capacidad/2,capacidad/2);
 		//Vehiculo cole = new ColectivoSinControl_33941256(capacidad/2,capacidad/2);
+		//Vehiculo cole = new ColectivoConDosInspectoresSemaphore_33941256(capacidad/2,capacidad/2);
 		
 		for(i=0; i<nroPasajeros; i++){
-			Persona p = new Persona(String.valueOf("Persona"+i));
-			p.entrarAlVehiculo(cole);
+			Pasajero est = new Estudiante();
+			est.entrarAlVehiculo(cole);
 		}
 	}
 }
