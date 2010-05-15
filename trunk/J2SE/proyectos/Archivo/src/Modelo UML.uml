@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_qb8akM37EdqwVrslYOdUDA" name="Modelo UML">
+  <packagedElement xmi:type="uml:Interface" xmi:id="_HIA0cF_OEd-lcID8n-C-ZQ" name="Writable"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_JikyYF_OEd-lcID8n-C-ZQ" name="Readable">
+    <ownedOperation xmi:id="_4q7N4F_PEd-lcID8n-C-ZQ" name="Operation1">
+      <ownedParameter xmi:id="_7va5oF_PEd-lcID8n-C-ZQ" name="return" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_5d_pkF_PEd-lcID8n-C-ZQ" name="Operation2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_N4UDkF_OEd-lcID8n-C-ZQ" name="Buffer" clientDependency="_ugFnBF_OEd-lcID8n-C-ZQ _c-cfw1_PEd-lcID8n-C-ZQ _diAf1F_PEd-lcID8n-C-ZQ">
+    <ownedAttribute xmi:id="_M7FUYF_QEd-lcID8n-C-ZQ" name="Property1" visibility="private" type="_N4UDkF_OEd-lcID8n-C-ZQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_ugFnBF_OEd-lcID8n-C-ZQ" name="Dependency1" supplier="_JikyYF_OEd-lcID8n-C-ZQ" client="_N4UDkF_OEd-lcID8n-C-ZQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_c-cfw1_PEd-lcID8n-C-ZQ" name="Dependency2" supplier="_HIA0cF_OEd-lcID8n-C-ZQ" client="_N4UDkF_OEd-lcID8n-C-ZQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_diAf1F_PEd-lcID8n-C-ZQ" name="Dependency3" supplier="_JikyYF_OEd-lcID8n-C-ZQ" client="_N4UDkF_OEd-lcID8n-C-ZQ"/>
+  <packagedElement xmi:type="uml:Package" xmi:id="_TbBzUV_QEd-lcID8n-C-ZQ" name="paquete">
+    <packagedElement xmi:type="uml:Association" xmi:id="_TdzagF_QEd-lcID8n-C-ZQ" memberEnd="_TdzagV_QEd-lcID8n-C-ZQ">
+      <ownedEnd xmi:id="_TdzagV_QEd-lcID8n-C-ZQ" name="Writer" association="_TdzagF_QEd-lcID8n-C-ZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Tdzagl_QEd-lcID8n-C-ZQ" memberEnd="_Tdzag1_QEd-lcID8n-C-ZQ">
+      <ownedEnd xmi:id="_Tdzag1_QEd-lcID8n-C-ZQ" name="Reader" association="_Tdzagl_QEd-lcID8n-C-ZQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Xq_Mol_QEd-lcID8n-C-ZQ" name="BufferSemaphore_3394256" clientDependency="_XrHvgF_QEd-lcID8n-C-ZQ _XrHvgV_QEd-lcID8n-C-ZQ">
+      <ownedAttribute xmi:id="_Xr7n0F_QEd-lcID8n-C-ZQ" name="sem" visibility="private" type="_Xr6ZsF_QEd-lcID8n-C-ZQ"/>
+      <ownedAttribute xmi:id="_Xr-EEF_QEd-lcID8n-C-ZQ" name="vacio" visibility="private" type="_Xr6ZsF_QEd-lcID8n-C-ZQ"/>
+      <ownedAttribute xmi:id="_Xr_5QF_QEd-lcID8n-C-ZQ" name="lleno" visibility="private" type="_Xr6ZsF_QEd-lcID8n-C-ZQ"/>
+      <ownedAttribute xmi:id="_XsBucF_QEd-lcID8n-C-ZQ" name="buffer" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XsBucV_QEd-lcID8n-C-ZQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XsBucl_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XsEKsF_QEd-lcID8n-C-ZQ" name="capacidad" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XsJqQF_QEd-lcID8n-C-ZQ" name="indice" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_XsKRUF_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XsMGgF_QEd-lcID8n-C-ZQ" name="dato" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_XrHvgF_QEd-lcID8n-C-ZQ" name="Writable" supplier="_XrEFIF_QEd-lcID8n-C-ZQ" client="_Xq_Mol_QEd-lcID8n-C-ZQ" contract="_XrEFIF_QEd-lcID8n-C-ZQ"/>
+      <interfaceRealization xmi:id="_XrHvgV_QEd-lcID8n-C-ZQ" name="Readable" supplier="_XrBB0F_QEd-lcID8n-C-ZQ" client="_Xq_Mol_QEd-lcID8n-C-ZQ" contract="_XrBB0F_QEd-lcID8n-C-ZQ"/>
+      <ownedOperation xmi:id="_XsNUoF_QEd-lcID8n-C-ZQ" name="getDato" visibility="public">
+        <ownedParameter xmi:id="_XsNUoV_QEd-lcID8n-C-ZQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_XsOiwF_QEd-lcID8n-C-ZQ" name="setDato" visibility="public">
+        <ownedParameter xmi:id="_XsOiwV_QEd-lcID8n-C-ZQ" name="dato">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XrAawF_QEd-lcID8n-C-ZQ" name="Main">
+      <ownedOperation xmi:id="_XsPw4F_QEd-lcID8n-C-ZQ" name="main" visibility="public" isStatic="true">
+        <ownedComment xmi:id="_XsQX8F_QEd-lcID8n-C-ZQ">
+          <body>/** 
+ * @param args
+ */
+</body>
+        </ownedComment>
+        <ownedParameter xmi:id="_XsPw4V_QEd-lcID8n-C-ZQ" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XrBB0F_QEd-lcID8n-C-ZQ" name="Readable">
+      <ownedOperation xmi:id="_XsQX8V_QEd-lcID8n-C-ZQ" name="getDato" visibility="public">
+        <ownedParameter xmi:id="_XsQX8l_QEd-lcID8n-C-ZQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XrEFIF_QEd-lcID8n-C-ZQ" name="Writable">
+      <ownedOperation xmi:id="_XsQX81_QEd-lcID8n-C-ZQ" name="setDato" visibility="public">
+        <ownedParameter xmi:id="_XsQX9F_QEd-lcID8n-C-ZQ" name="dato">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XrEsMF_QEd-lcID8n-C-ZQ" name="Buffer" clientDependency="_XsQ_AF_QEd-lcID8n-C-ZQ _XsQ_AV_QEd-lcID8n-C-ZQ">
+      <ownedAttribute xmi:id="_XsRmEF_QEd-lcID8n-C-ZQ" name="buffer" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XsRmEV_QEd-lcID8n-C-ZQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XsRmEl_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XsTbQF_QEd-lcID8n-C-ZQ" name="capacidad" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XsUpYF_QEd-lcID8n-C-ZQ" name="indice" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_XsUpYV_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_XsQ_AF_QEd-lcID8n-C-ZQ" name="Readable" supplier="_XrBB0F_QEd-lcID8n-C-ZQ" client="_XrEsMF_QEd-lcID8n-C-ZQ" contract="_XrBB0F_QEd-lcID8n-C-ZQ"/>
+      <interfaceRealization xmi:id="_XsQ_AV_QEd-lcID8n-C-ZQ" name="Writable" supplier="_XrEFIF_QEd-lcID8n-C-ZQ" client="_XrEsMF_QEd-lcID8n-C-ZQ" contract="_XrEFIF_QEd-lcID8n-C-ZQ"/>
+      <ownedOperation xmi:id="_XsV3gF_QEd-lcID8n-C-ZQ" name="getDato" visibility="public">
+        <ownedParameter xmi:id="_XsV3gV_QEd-lcID8n-C-ZQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_XsXFoF_QEd-lcID8n-C-ZQ" name="setDato" visibility="public">
+        <ownedParameter xmi:id="_XsXFoV_QEd-lcID8n-C-ZQ" name="dato">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XrF6UF_QEd-lcID8n-C-ZQ" name="Writer" clientDependency="_EcxO0F_REd-lcID8n-C-ZQ">
+      <ownedAttribute xmi:id="_XsYTwF_QEd-lcID8n-C-ZQ" name="b" visibility="private" type="_Xq_Mol_QEd-lcID8n-C-ZQ">
+        <association href="../Modelo UML.uml#_Xsir0F_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_EcxO0F_REd-lcID8n-C-ZQ" name="InterfaceRealization1" supplier="_5rUecF_QEd-lcID8n-C-ZQ" client="_XrF6UF_QEd-lcID8n-C-ZQ" contract="_5rUecF_QEd-lcID8n-C-ZQ"/>
+      <ownedOperation xmi:id="_XsY60F_QEd-lcID8n-C-ZQ" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XrGhYF_QEd-lcID8n-C-ZQ" name="Reader" clientDependency="_E-CI0F_REd-lcID8n-C-ZQ">
+      <ownedAttribute xmi:id="_XsaI8F_QEd-lcID8n-C-ZQ" name="b" visibility="private" type="_Xq_Mol_QEd-lcID8n-C-ZQ">
+        <association href="../Modelo UML.uml#_XsjS4F_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_XsbXEF_QEd-lcID8n-C-ZQ" name="dato" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_E-CI0F_REd-lcID8n-C-ZQ" name="InterfaceRealization1" supplier="_5rUecF_QEd-lcID8n-C-ZQ" client="_XrGhYF_QEd-lcID8n-C-ZQ" contract="_5rUecF_QEd-lcID8n-C-ZQ"/>
+      <ownedOperation xmi:id="_Xsb-IF_QEd-lcID8n-C-ZQ" name="run" visibility="public"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Tbd4MF_QEd-lcID8n-C-ZQ" name="Buffer_33941256" clientDependency="_Tdq3oF_QEd-lcID8n-C-ZQ _Tdq3oV_QEd-lcID8n-C-ZQ _tuNzQF_QEd-lcID8n-C-ZQ _vsQ0UF_QEd-lcID8n-C-ZQ _wj4_4F_QEd-lcID8n-C-ZQ">
+      <ownedAttribute xmi:id="_TdsFwF_QEd-lcID8n-C-ZQ" name="buffer" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TdsFwV_QEd-lcID8n-C-ZQ" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TdsFwl_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Tdt68F_QEd-lcID8n-C-ZQ" name="capacidad" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_TdvwIF_QEd-lcID8n-C-ZQ" name="indice" visibility="package">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_TdvwIV_QEd-lcID8n-C-ZQ"/>
+      </ownedAttribute>
+      <interfaceRealization xmi:id="_Tdq3oF_QEd-lcID8n-C-ZQ" name="Readable" client="_Tbd4MF_QEd-lcID8n-C-ZQ"/>
+      <interfaceRealization xmi:id="_Tdq3oV_QEd-lcID8n-C-ZQ" name="Writable" client="_Tbd4MF_QEd-lcID8n-C-ZQ"/>
+      <interfaceRealization xmi:id="_vsQ0UF_QEd-lcID8n-C-ZQ" name="InterfaceRealization1" supplier="_XrBB0F_QEd-lcID8n-C-ZQ" client="_Tbd4MF_QEd-lcID8n-C-ZQ" contract="_XrBB0F_QEd-lcID8n-C-ZQ"/>
+      <interfaceRealization xmi:id="_wj4_4F_QEd-lcID8n-C-ZQ" name="InterfaceRealization2" supplier="_XrEFIF_QEd-lcID8n-C-ZQ" client="_Tbd4MF_QEd-lcID8n-C-ZQ" contract="_XrEFIF_QEd-lcID8n-C-ZQ"/>
+      <ownedOperation xmi:id="_Tdw-QF_QEd-lcID8n-C-ZQ" name="getDato" visibility="public">
+        <ownedParameter xmi:id="_Tdw-QV_QEd-lcID8n-C-ZQ" name="return" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_TdyMYF_QEd-lcID8n-C-ZQ" name="setDato" visibility="public">
+        <ownedParameter xmi:id="_TdyMYV_QEd-lcID8n-C-ZQ" name="dato">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_5rUecF_QEd-lcID8n-C-ZQ" name="Runnable">
+      <ownedOperation xmi:id="_8JpiEF_QEd-lcID8n-C-ZQ" name="Run"/>
+      <ownedOperation xmi:id="_9XMTQF_QEd-lcID8n-C-ZQ" name="Operation2"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Tc2_UF_QEd-lcID8n-C-ZQ" name="Semaphore"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_Xr6ZsF_QEd-lcID8n-C-ZQ" name="Semaphore"/>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_jLnXMF_QEd-lcID8n-C-ZQ" name="Semaphore"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_tuNzQF_QEd-lcID8n-C-ZQ" name="Dependency4" supplier="_XrBB0F_QEd-lcID8n-C-ZQ" client="_Tbd4MF_QEd-lcID8n-C-ZQ"/>
+</uml:Model>
