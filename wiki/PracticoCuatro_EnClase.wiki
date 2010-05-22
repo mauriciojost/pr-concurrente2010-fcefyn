@@ -18,13 +18,13 @@ El modelo del productor consumidor consiste en un hilo Writer que almacena datos
 
 * NOTA: Modificar el nombre de la clase Buffer por Buffer_nroMatricula.*
 
-== Plazo de entrega ==
-
-Martes 24, 23:59 hs.
-
 === Preguntas ===
 
 ¿Que sentido tienen las interfaces Readable y Writable?
 <wiki:comment>¿Si los datos no fueran consumibles (es decir, no son extraídos, solo reemplazados) alguna operación se podría llevar a cabo en simultáneo por varios hilos? ¿Cual y bajo que condiciones?</wiki:comment>
+
+== Plazo de entrega ==
+
+Martes 24, 23:59 hs.
 
 = Resultados =
