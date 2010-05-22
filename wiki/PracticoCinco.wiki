@@ -6,7 +6,7 @@
 
 En este práctico los alumnos pondrán en práctica todo lo aprendido hasta el momento en un caso más cercano a la realidad. 
 
-http://pr-concurrente2010-fcefyn.googlecode.com/files/prac5.jpg
+http://pr-concurrente2010-fcefyn.googlecode.com/files/Prac5.jpg
 
 == Explicación == 
 
