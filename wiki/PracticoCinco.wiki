@@ -10,6 +10,10 @@ http://pr-concurrente2010-fcefyn.googlecode.com/files/Prac5.jpg
 
 == Explicación == 
 
+Se tiene un generador de N señales. Cada señal se actualiza con el período especificado.
+<Falta completar>
+
+
 
 === Consigna === 
 
