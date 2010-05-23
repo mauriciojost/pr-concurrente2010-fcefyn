@@ -3,20 +3,11 @@
 
 = Aclaración =
 
-Por favor respeten el formato para presentar los trabajos. Está claramente especificado que nombre deben tener las clases a presentar y donde responder preguntas!
+Por favor respeten el formato para presentar los trabajos. ¡Está claramente especificado qué nombre deben tener las clases a presentar y dónde responder preguntas!
 
-= Cuarto Práctico =
+= Quinto Práctico =
 
-Ya está disponible el cuarto práctico. El mismo tiene por objetivo que resuelvan el problema de concurrencia en el Productor/Consumidor (también conocido como Lector/Escritor).
-
-= Tutorial de SVN =
-
-Está disponible un tutorial de SVN. Bien básico, pero útil para hacer la primera experiencia con el cliente TortoiseSVN.
-
-[http://pr-concurrente2010-fcefyn.googlecode.com/files/SVN%20-%20Parte%201.pdf Tutorial SVN Tortoise - Parte 1]
-
-[http://tortoisesvn.net/node/138 Significado de los íconos]
-
+Ya está disponible el quinto. El mismo tiene por objetivo poner en práctica lo visto hasta el momento en un caso con múltiples recursos reales en juego.
 
 = Comentarios y Sugerencias =
 
