@@ -5,7 +5,7 @@
 
 = Presentación del práctico =
 
-En este práctico los alumnos pondrán en práctica todo lo aprendido hasta el momento en un caso más cercano a la realidad. 
+En este práctico los alumnos pondrán en práctica todo lo aprendido hasta el momento en un caso más aplicado. 
 
 http://pr-concurrente2010-fcefyn.googlecode.com/files/Prac5.jpg
 
