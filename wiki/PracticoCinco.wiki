@@ -10,16 +10,27 @@ http://pr-concurrente2010-fcefyn.googlecode.com/files/Prac5.jpg
 
 == Explicación == 
 
-Se tiene un generador de N señales. Cada señal se actualiza con el período especificado.
-<Falta completar>
+Generador de Señales.
 
+Se desea tomar muestras de distintas señales. Dichas muestras deberán ser almacenadas en archivo y utilizadas para representar las señales en pantalla.
 
+Se tiene un _*Generador*_ de n señales que deben ser muestreadas periódicamente. Tanto el período de muestreo como la cantidad de señales debe ser ingresado por el Usuario. También debe existir un mecanismo para que el Usuario inicie el muestreo (por ejemplo mediante un click en un botón Play).
+
+*Para cada señal* se tiene un _*Analizador*_ de canal. Dicho analizador cuenta con _*Muestreador*_ de canal, un _*Buffer*_ y un _*Consumidor*_ de canal. El Muestreador debe tomar muestras del canal respetando la periodicidad indicada por el Usuario. Para garantizar que no se pierden muestras, las mismas son almacenadas en el Buffer. El Consumidor del canal será el *responsable de extraer muestras de dicho buffer y gestionar* el almacenamiento y presentación en patalla de dichas muestras.
+
+Un _*Logger*_ será responsable de almacenar muestras en un único archivo. Un _*Printer*_ será responsable de representar gráficamente los últimos 10 valores de cada señal.
+
+*IMPORTANTE:* El Generador no debe ser implementado. Será puesto en el repositorio a la brevedad. Tendrá un método _public float getMuestra(int canal)_ el cual será necesario invocar por el Muestreador cuando quiera tomar una muestra.
 
 === Consigna === 
 
+ # Realizar diagrama de clases.
+ # Implementar el proyecto.
+ # Presentar vía mail. Adjuntar un archivo con nombre Generador_nroMatricula.rar con:
+  # El paquete con los archivos .java.
+  # El diagrama de clases en *pdf* o en *jpg*.
 
-=== Preguntas === 
-
+CUMPLIR CON EL FORMATO DE ENTREGA.
 
 *_Plazo: Martes 31, 23:59.*
 
