@@ -32,6 +32,8 @@ Un _*Logger*_ será responsable de almacenar muestras en un único archivo. Un _
 
 CUMPLIR CON EL FORMATO DE ENTREGA.
 
+== Plazo de Entrega ==
+
 *_Plazo: Martes 31, 23:59.*
 
 = Resultados =
