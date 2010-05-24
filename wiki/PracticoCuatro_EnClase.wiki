@@ -27,4 +27,8 @@ El modelo del productor consumidor consiste en un hilo Writer que almacena datos
 
 Martes 24, 23:59 hs.
 
+= Celziuz =
+El práctico de Celziuz (Barbero encubierto) va a ser considerado optativo. Por supuesto que quien lo envíe tendrá la posibilidad de obtener un OK+. Este práctico no tiene plazo de entrega.  
+
+
 = Resultados =
