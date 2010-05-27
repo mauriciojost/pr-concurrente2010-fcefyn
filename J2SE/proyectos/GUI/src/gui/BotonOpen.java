@@ -26,9 +26,10 @@ public class BotonOpen extends JButton implements MouseListener {
 	@Override
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
-		String temp = a.openAndRead();
-		if(temp != null){
-			at.setText(temp);
+		String linea;
+		linea = a.openAndRead();
+		at.setText(linea);
+		if(linea != null){
 			at.setVisible(true);
 		}
 	}
