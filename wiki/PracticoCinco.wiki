@@ -21,20 +21,18 @@ Se tiene un _*Generator*_ de n señales que deben ser muestreadas periódicament
 
 Un _*Logger*_ será responsable de almacenar muestras en un único archivo. Un _*Printer*_ será responsable de representar gráficamente los últimos 10 valores de cada señal.
 
-*IMPORTANTE:* El Generador no debe ser implementado. Será puesto en el repositorio a la brevedad. Tendrá un método _public float getMuestra(int canal)_ el cual será necesario invocar por el Analyzer cuando quiera tomar una muestra.
-
 === Consigna === 
 
  # Realizar diagrama de clases.
  # Implementar el proyecto.
- # Presentar vía mail. Adjuntar un archivo con nombre Generator_nroMatricula.rar con:
-  # El paquete con los archivos .java.
-  # El diagrama de clases en *pdf* o en *jpg*.
+ # Presentar vía repositorio SVN. Hacer commit únicamente a los archivos .class. Los archivos .java van a ser preservados hasta próximo aviso (cumplido el plazo). Si los .class cambian al ser compilados los .java correspondientes, se considerará que los archivos fuente han sido modificados luego de la fecha límite (y corresponderá un OK- cuando mucho). 
 
 CUMPLIR CON EL FORMATO DE ENTREGA.
 
+Cualquier duda, consultar por este medio.
+
 == Plazo de Entrega ==
 
-*_Plazo: Martes 31, 23:59.*
+*_Plazo: Martes 1°, 23:59.* -> *PRÓRROGA HASTA EL MARTES 8 (el práctico lo amerita)*
 
 = Resultados =
