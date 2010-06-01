@@ -1,3 +1,6 @@
+package main;
+import mauricio.OneFile200404067;
+
 
 public class Main {
 	public static final int N_CHANNELS = 2;
@@ -15,11 +18,7 @@ public class Main {
 			/* Ingresar el bloque de código de inicialización para cada alumno. */
 			case MATRICULA_MAURICIO: 
 				Generator generator = new Generator(N_CHANNELS);
-				for (int i=0; i<5000;i++){
-					System.out.println("Generator: " + generator.getMuestra(0) + " : " + generator.getMuestra(1) + ".");
-					try {Thread.sleep(1);} catch (InterruptedException e) {}
-				}
-				generator.stop();
+				new OneFile200404067(generator);
 				break;
 				
 			default:
