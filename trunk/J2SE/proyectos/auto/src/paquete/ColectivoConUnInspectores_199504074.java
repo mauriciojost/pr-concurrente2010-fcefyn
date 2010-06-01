@@ -1,8 +1,8 @@
 package paquete;
 
-public class ColectivoConUnInspector_199504074 extends Vehiculo {
+public class ColectivoConUnInspectores_199504074 extends Vehiculo {
 	
-	public ColectivoConUnInspector_199504074(int ingresosPorA, int ingresosPorB) {
+	public ColectivoConUnInspectores_199504074(int ingresosPorA, int ingresosPorB) {
 		super(ingresosPorA, ingresosPorB);
 		// TODO Auto-generated constructor stub
 	}
