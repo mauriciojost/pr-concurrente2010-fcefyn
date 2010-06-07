@@ -1,5 +1,5 @@
 package main;
-import mauricio.OneFile200404067;
+import mauricio.*;
 
 
 public class Main {
@@ -17,8 +17,9 @@ public class Main {
 		switch(alumno){
 			/* Ingresar el bloque de código de inicialización para cada alumno. */
 			case MATRICULA_MAURICIO: 
-				Generator generator = new Generator(N_CHANNELS);
+				Generator generator = new Generator(N_CHANNELS, 1);
 				new OneFile200404067(generator);
+				new Otra(generator);
 				break;
 				
 			default:
