@@ -1,8 +1,7 @@
 package main;
-<<<<<<< .mine
-=======
+
 import mauricio.*;
->>>>>>> .r254
+
 
 import LuisRodriguez.MiMain;
 
@@ -25,14 +24,14 @@ public class Main {
 		switch(alumno){
 			/* Ingresar el bloque de código de inicialización para cada alumno. */
 			case MATRICULA_MAURICIO: 
-<<<<<<< .mine
-				Generator generator = new Generator(N_CHANNELS,1);
+
+		/*		Generator generator = new Generator(N_CHANNELS,1);
 				generator.run();
-=======
+
 				Generator generator = new Generator(N_CHANNELS, 1);
 				new OneFile200404067(generator);
->>>>>>> .r254
-				new Otra(generator);
+
+				new Otra(generator);*/
 				break;
 				
 			case MATRICULA_LUIS_RODRIGUEZ:
