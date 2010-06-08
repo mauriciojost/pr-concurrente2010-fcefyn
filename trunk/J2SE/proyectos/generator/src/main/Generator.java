@@ -44,8 +44,13 @@ public class Generator implements Runnable{
 	private void giveAValueToSamples(){
 		this.semaphore.acquireUninterruptibly(this.nchannels);
 		Random rnd = new Random();
+<<<<<<< .mine
+		for(int i=0; i<nchannels; i++){
+			muestras[i] =  (float) ((0.99 * muestras[i]) + (0.01 *rnd.nextFloat()));
+=======
 		for(int i=0; i<nchannels; i++){
 			muestras[i] = (float) ((0.99 * muestras[i]) + (0.01 * rnd.nextFloat()));
+>>>>>>> .r254
 		}
 		this.semaphore.release(this.nchannels);
 	}
