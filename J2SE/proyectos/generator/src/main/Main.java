@@ -1,6 +1,7 @@
 package main;
 
 import mauricio.*;
+import ortizsoler.*;
 
 
 import LuisRodriguez.MiMain;
@@ -13,6 +14,8 @@ public class Main {
 	
 	/* Ingresar las matrículas aquí. */
 	public static final int MATRICULA_MAURICIO = 200404067;
+	public static final int MATRICULA_ORTIZ = 33320188;
+	public static final int MATRICULA_SOLER = 33843410;
 	public static final int MATRICULA_LUIS_RODRIGUEZ=32187957;
 	
 	/* Fin de matrículas. */
@@ -33,7 +36,12 @@ public class Main {
 
 				new Otra(generator);*/
 				break;
-				
+			case MATRICULA_ORTIZ:
+				new Pantalla();
+				break;
+			case MATRICULA_SOLER:
+				new Pantalla();
+				break;
 			case MATRICULA_LUIS_RODRIGUEZ:
 				MiMain mm=new MiMain(); //inicializacion de la pantalla y otros objetos
 				
