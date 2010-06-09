@@ -16,6 +16,7 @@ public class Main {
 	public static final int MATRICULA_ORTIZ = 33320188;
 	public static final int MATRICULA_SOLER = 33843410;
 	public static final int MATRICULA_LUIS_RODRIGUEZ = 32187957;
+	public static final int MATRICULA_SAMBAN = 34189197;
 	
 	/* Fin de matrículas. */
 	
@@ -52,6 +53,10 @@ public class Main {
 				MiMain mm=new MiMain(); //inicializacion de la pantalla y otros objetos
 				break;	
 				*/
+			case MATRICULA_SAMBAN:
+				/*
+				 new Creador();
+				 */
 				
 			default:
 				System.out.println("Ingrese su nro. de alumno e implemente su sección de código.");
