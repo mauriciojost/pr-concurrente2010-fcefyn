@@ -7,7 +7,6 @@ Práctico de Monitor
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+Para el vehículo sin control, implementar un monitor que asegure que el acceso ocurre de a un pasajero, de a dos pasajeros.
+
+http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo3.jpg
