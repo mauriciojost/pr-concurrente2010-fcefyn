@@ -14,4 +14,4 @@
 
 *[PracticoCinco Practico 5: Generator]
 
-*[PracticoDeMonitor Practico 6: Monitor]
+*[Practico6Monitor Practico 6: Monitor]
