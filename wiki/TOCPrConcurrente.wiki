@@ -13,3 +13,5 @@
 *[PracticoCuatro_EnClase Practico 4: Buffer]
 
 *[PracticoCinco Practico 5: Generator]
+
+*[PracticoDeMonitor Practico 6: Monitor]
