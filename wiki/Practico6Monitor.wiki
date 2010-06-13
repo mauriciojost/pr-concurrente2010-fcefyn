@@ -19,8 +19,10 @@ http://pr-concurrente2010-fcefyn.googlecode.com/files/Vehiculo3.jpg
 Presentar diagrama de clases correspondiente.
 
 Responder a la pregunta:
-* ¿Qué ventaja tiene el uso de monitores para este caso?
-* ¿En qué circunstancias el uso de monitores es la única alternativa para la solución de problemas de concurrencia?
+
+  * ¿Qué ventaja tiene el uso de monitores para este caso?
+
+  * ¿En qué circunstancias el uso de monitores es la única alternativa para la solución de problemas de concurrencia?
 
 == Práctico de Celziuz ==
 
@@ -42,4 +44,3 @@ La entrega se realizará de manera similar al práctico anterior. Se creará en 
 == Plazo ==
 
 Martes 23 de Junio de 2010, hasta las 23:59 hs. 
-
