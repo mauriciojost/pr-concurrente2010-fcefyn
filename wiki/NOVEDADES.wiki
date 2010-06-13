@@ -12,3 +12,5 @@ Ya está disponible el sexto práctico. El mismo tiene por objetivo la implement
 = Comentarios y Sugerencias =
 
 Pueden dejar cualquier opinión que sirva para mejorar las clases: [http://code.google.com/p/pr-concurrente2010-fcefyn/wiki/ComentariosSugerencias Comentarios y sugerencias sobre la clase].
+
+[http://spreadsheets.google.com/ccc?key=0ApMD-6bhZtjBdDl4Y29zcS1OVktOVENLb25TWTMxSFE&hl=en Lista de alumnos y Situación de Entrega]
