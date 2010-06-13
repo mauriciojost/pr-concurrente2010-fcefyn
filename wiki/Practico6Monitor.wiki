@@ -28,8 +28,6 @@ Responder a la pregunta:
 
 === Detalles ===
 
-Práctico de Celziuz (Barbero encubierto).
-
 Se tiene un comercio con espacio para 20 clientes. Cada cliente posee su edad generada aleatoriamente entre 0 y 100 años (inclusive). Existen disponibles 5 sillas, en las cuales se sentarán las personas con mayor edad. La atención es por orden de llegada, y en nada influye la edad. 
 
 Existen sólo 3 vendedores, los cuales poseen un único puesto de cobranza. Cada vez que un vendedor necesita realizar el cobro, debe esperar a que dicho puesto esté disponible. Si esto no ocurre, debe esperar junto al cliente su turno.
