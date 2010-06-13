@@ -5,9 +5,9 @@
 
 Por favor respeten el formato para presentar los trabajos. ¡Está claramente especificado qué nombre deben tener las clases a presentar y dónde responder preguntas!
 
-= Quinto Práctico =
+= Sexto Práctico =
 
-Ya está disponible el quinto. El mismo tiene por objetivo poner en práctica lo visto hasta el momento en un caso con múltiples recursos reales en juego.
+Ya está disponible el sexto práctico. El mismo tiene por objetivo la implementación de un monitor y la utilización de los conceptos aprendidos para simular el problema de la barbería. 
 
 = Comentarios y Sugerencias =
 
