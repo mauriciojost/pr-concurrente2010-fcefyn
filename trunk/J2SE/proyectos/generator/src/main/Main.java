@@ -17,6 +17,7 @@ public class Main {
 	public static final int MATRICULA_SOLER = 33843410;
 	public static final int MATRICULA_LUIS_RODRIGUEZ = 32187957;
 	public static final int MATRICULA_SAMBAN = 34189197;
+	public static final int MATRICULA_Pisetta = 34441188;
 	
 	/* Fin de matrículas. */
 	
@@ -56,6 +57,11 @@ public class Main {
 			case MATRICULA_SAMBAN:
 				/*
 				 new Creador();
+				 break;
+				 */
+			case MATRICULA_Pisetta:
+				/*
+				 new Work(generator,N_CHANNELS);
 				 break;
 				 */
 				
