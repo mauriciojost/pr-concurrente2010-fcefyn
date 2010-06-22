@@ -1,4 +1,4 @@
-package paquete;
+package paq;
 
 import mauricio.Monitor_200404067;
 
@@ -15,7 +15,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		int alumno=MATRICULA_MAURICIO;
-		int i, capacidad=200, nroPasajeros=1000;
+		int i, capacidad=2, nroPasajeros=4;
 		Vehiculo veh = new ColectivoSinControl(capacidad/2,capacidad/2);
 		
 		switch(alumno){
@@ -23,10 +23,10 @@ public class Main {
 			/* Ingresar el bloque de código de inicialización para cada alumno. */
 		
 			case MATRICULA_MAURICIO: 
-				
+				System.out.println("Hola");
+				Monitor_200404067 mon = new Monitor_200404067(veh);
 				for(i=0; i<nroPasajeros; i++){
 					Persona p = new Persona(i+1);
-					Monitor_200404067 mon = new Monitor_200404067(veh);
 					p.entrarAlVehiculo(mon);
 				}
 

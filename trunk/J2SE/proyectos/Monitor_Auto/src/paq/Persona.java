@@ -1,4 +1,4 @@
-package paquete;
+package paq;
 
 import java.util.Random;
 

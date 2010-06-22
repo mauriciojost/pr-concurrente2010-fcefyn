@@ -1,4 +1,4 @@
-package paquete;
+package paq;
 
 /* Clase abstracta. 
  * Contiene métodos que deben ser implementados por la clase hija.
