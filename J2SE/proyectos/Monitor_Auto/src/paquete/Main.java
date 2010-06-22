@@ -1,8 +1,6 @@
 package paquete;
 
-import main.Generator;
-import mauricio.OneFile200404067;
-import mauricio.Otra;
+import mauricio.Monitor_200404067;
 
 public class Main {
 	/* Ingresar las matrículas aquí. */
@@ -28,7 +26,7 @@ public class Main {
 				
 				for(i=0; i<nroPasajeros; i++){
 					Persona p = new Persona(i+1);
-					Monitor_200404067 mon = Monitor_200404067(veh);
+					Monitor_200404067 mon = new Monitor_200404067(veh);
 					p.entrarAlVehiculo(mon);
 				}
 
