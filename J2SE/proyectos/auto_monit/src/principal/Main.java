@@ -15,6 +15,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		int alumno=MATRICULA_MAURICIO;
+		boolean dos_inspectores = false;
 		int i, capacidad=200, nroPasajeros=1000;
 		Vehiculo veh = new ColectivoSinControl(capacidad/2,capacidad/2);
 		
@@ -23,7 +24,13 @@ public class Main {
 			/* Ingresar el bloque de código de inicialización para cada alumno. */
 		
 			case MATRICULA_MAURICIO: 
-				Monitor_200404067 mon = new Monitor_200404067(veh);
+				Vehiculo mon;
+				if (dos_inspectores==false){
+					mon = new Monitor_200404067(veh);
+				}else{
+					mon = null; /* ¡También implementen este caso! */
+				}
+				
 				for(i=0; i<nroPasajeros; i++){
 					Persona p = new Persona(i+1);
 					/* Notar que la persona solicita al monitor el ingreso al vehículo. */
