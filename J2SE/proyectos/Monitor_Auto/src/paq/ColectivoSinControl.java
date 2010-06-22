@@ -1,4 +1,4 @@
-package paquete;
+package paq;
 
 public class ColectivoSinControl extends Vehiculo {
 

@@ -1,4 +1,4 @@
-package paquete;
+package paq;
 
 /* Interfaz Pasajero.
  */

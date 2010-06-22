@@ -1,7 +1,7 @@
 package mauricio;
 
-import paquete.Pasajero;
-import paquete.Vehiculo;
+import paq.Pasajero;
+import paq.Vehiculo;
 
 public class Monitor_200404067 extends Vehiculo {
 	private Vehiculo monitoreado = null;
