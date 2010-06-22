@@ -44,4 +44,5 @@ La entrega se realizará de manera similar al práctico anterior. Se creará en 
 == Plazo ==
 
 Martes 23 de Junio de 2010, hasta las 23:59 hs. 
+
 *Prórroga: Martes 30 de Junio, hasta las 23:59 hs.*
