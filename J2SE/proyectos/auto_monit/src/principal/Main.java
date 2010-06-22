@@ -26,6 +26,8 @@ public class Main {
 				Monitor_200404067 mon = new Monitor_200404067(veh);
 				for(i=0; i<nroPasajeros; i++){
 					Persona p = new Persona(i+1);
+					/* Notar que la persona solicita al monitor el ingreso al vehículo. */
+					/* Notar que el vehículo no soporta concurrencia, si no es gracias al monitor. */
 					p.entrarAlVehiculo(mon);
 				}
 
