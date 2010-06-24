@@ -5,6 +5,16 @@
 
 Por favor respeten el formato para presentar los trabajos. ¡Está claramente especificado qué nombre deben tener las clases a presentar y dónde responder preguntas!
 
+= High Performance Computing =
+
+Información interesante, con buenos tutoriales que pueden servir de complemento para entender conceptos relacionados a Threads. Puede ser útil para SOI y SOII.
+
+[https://computing.llnl.gov/?set=training&page=index#training_materials HPC]
+
+[https://computing.llnl.gov/tutorials/parallel_comp/ Parallel Computing]
+
+[https://computing.llnl.gov/tutorials/pthreads/ PThread]
+
 = Como generar un JAR en Eclipse =
 
 El siguiente link explica paso a paso de una manera muy simple como generar el JAR de un proyecto desarrollado con Eclipse.
