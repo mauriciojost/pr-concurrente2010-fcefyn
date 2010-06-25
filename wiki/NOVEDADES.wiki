@@ -5,6 +5,12 @@
 
 Por favor respeten el formato para presentar los trabajos. ¡Está claramente especificado qué nombre deben tener las clases a presentar y dónde responder preguntas!
 
+= Repositorio "privado" =
+
+Herramienta para crear repositorio propio. Alternativa a Google Code.
+
+[http://www.visualsvn.com/server/download/ VisualSVNServer]
+
 = High Performance Computing =
 
 Información interesante, con buenos tutoriales que pueden servir de complemento para entender conceptos relacionados a Threads. Puede ser útil para SOI y SOII.
