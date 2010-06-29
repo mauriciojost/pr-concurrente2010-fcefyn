@@ -1,5 +1,7 @@
 package principal;
 
+import rodriguez.Monitor_32187957_1;
+import rodriguez.Monitor_32187957_2;
 import Pisetta.Monitor_34441188;
 import mauricio.*;
 
@@ -15,7 +17,7 @@ public class Main {
 	/* Fin de matrículas. */
 	
 	public static void main(String[] args) {
-		int alumno=MATRICULA_PISETTA;
+		int alumno=MATRICULA_LUIS_RODRIGUEZ;
 		boolean dos_inspectores = false;
 		int i, capacidad=200, nroPasajeros=1000;
 		Vehiculo veh = new ColectivoSinControl(capacidad/2,capacidad/2);
@@ -43,7 +45,7 @@ public class Main {
 			case MATRICULA_PISETTA: 
 				Vehiculo vehiculo;
 				if (dos_inspectores==false){
-					vehiculo = new Monitor_34441188(veh,true);
+					//vehiculo = new Monitor_34441188(veh,true);
 				}else{
 					vehiculo = null; /* en este caso no se si se refiere a q no exista vehiculo
 					 					o que no exista monitor para el vehiculo 
@@ -59,7 +61,23 @@ public class Main {
 					
 				}
 
-				break;			
+				break;	
+				
+			case MATRICULA_LUIS_RODRIGUEZ: 
+				Vehiculo monitor;
+				if (dos_inspectores==false){
+					mon = new Monitor_32187957_1(veh);
+				
+				}else{
+					mon = new Monitor_32187957_2(veh);
+				}
+				
+				for(i=0; i<nroPasajeros; i++){
+					Persona p = new Persona(i+1);
+					p.entrarAlVehiculo(mon);
+				}
+
+				break;
 			default:
 				System.out.println("Ingrese su nro. de alumno e implemente su sección de código.");
 		}
