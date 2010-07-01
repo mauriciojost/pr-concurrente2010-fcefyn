@@ -3,6 +3,7 @@ package principal;
 import rodriguez.Monitor_32187957_1;
 import rodriguez.Monitor_32187957_2;
 import Pisetta.Monitor_34441188;
+impot Baez.Monitor_199504074;
 import mauricio.*;
 
 public class Main {
@@ -78,6 +79,24 @@ public class Main {
 				}
 
 				break;
+			case MATRICULA_BAEZ: 
+				Vehiculo monitor;
+				if (dos_inspectores==false){
+					mon = new Monitor_199504074(veh);
+				
+				}else{
+					mon = new Monitor_199504074(veh);
+				}
+				
+				for(i=0; i<nroPasajeros; i++){
+					Persona p = new Persona(i+1);
+					p.entrarAlVehiculo(mon);
+				}
+
+				break;
+			default:
+				System.out.println("Ingrese su nro. de alumno e implemente su sección de código.");
+		}
 			default:
 				System.out.println("Ingrese su nro. de alumno e implemente su sección de código.");
 		}
